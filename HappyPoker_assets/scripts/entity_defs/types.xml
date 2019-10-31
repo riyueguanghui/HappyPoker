@@ -1,0 +1,92 @@
+<root>
+  <ENTITYLIST>
+    ARRAY <of>  ENTITYCALL  </of> 
+  </ENTITYLIST>
+
+  <POKERLIST>
+    ARRAY <of>  INT8  </of>
+  </POKERLIST>
+
+  <FRIENDLIST>
+    ARRAY <of>   UINT64   </of>
+  </FRIENDLIST>
+
+  <ENTITYDATA>
+    FIXED_DICT
+    <Properties>
+      <playerName>
+        <Type>    UNICODE   </Type>
+      </playerName>
+      <playerBean>
+        <Type>    INT32    </Type>
+      </playerBean>
+      <roomIndex>
+        <Type>    UINT8   </Type>
+      </roomIndex>
+      <playerID>
+        <Type>    UINT64</Type>
+      </playerID>
+    </Properties>
+  </ENTITYDATA>
+
+  <MAILDATA>
+    FIXED_DICT
+    <Properties>
+      <senderID>
+        <Type>   UINT64    </Type>
+      </senderID>
+      <senderName>
+        <Type>   UNICODE   </Type>
+      </senderName>
+      <recverID>
+        <Type>   UINT64    </Type>
+      </recverID>
+    </Properties>
+  </MAILDATA>
+
+  <FRIENDDATA>
+    FIXED_DICT
+    <Properties>
+      <status>
+        <Type>   UINT8    </Type>
+      </status>
+      <playerID>
+        <Type>   UINT64    </Type>
+      </playerID>
+      <playerName>
+        <Type>   UNICODE   </Type>
+      </playerName>
+      <playerBean>
+        <Type>   INT32     </Type>
+      </playerBean>
+      <playerEntity>
+        <Type>   ENTITYCALL    </Type>
+      </playerEntity>
+      
+    </Properties>
+  </FRIENDDATA>
+
+  <SYNCHRODATA>
+    FIXED_DICT
+    <Properties>
+      <senderID>
+        <Type>   UINT64    </Type>
+      </senderID>
+      <recverID>
+        <Type>   UINT64    </Type>
+      </recverID>
+    </Properties>
+  </SYNCHRODATA>
+
+  <MAILLIST>
+    ARRAY   <of>MAILDATA    </of>
+  </MAILLIST>
+
+  <FRIENDDATALIST>
+    ARRAY   <of>   FRIENDDATA    </of>
+  </FRIENDDATALIST>
+
+  <SYNCHRODATALIST>
+    ARRAY  <of>   SYNCHRODATA </of>
+  </SYNCHRODATALIST>
+</root>

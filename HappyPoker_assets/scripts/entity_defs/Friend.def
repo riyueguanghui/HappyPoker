@@ -1,0 +1,57 @@
+<root>
+	<Properties>
+    <!--玩家公开的数据-->
+    <publicDataList>
+      <Type>   FRIENDDATALIST    </Type>
+      <Flags>     BASE    </Flags>
+      <Persistent>  true   </Persistent>
+      <Default>   []      </Default>
+    </publicDataList>
+
+    <!--等待同步添加的好友-->
+    <synchroFriendList>
+      <Type>  SYNCHRODATALIST  </Type>
+      <Flags>   BASE    </Flags>
+      <Persistent>    true    </Persistent>
+      <Default>   []    </Default>
+    </synchroFriendList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+    <!--玩家上线-->
+    <playerOnline>
+      <Arg>     UINT64    </Arg>
+      <Arg>     FRIENDDATA    </Arg>
+      <Arg>     FRIENDLIST    </Arg>
+    </playerOnline>
+    
+    <!--玩家下线-->
+    <playerOffline>
+      <Arg>     UINT64    </Arg>
+      <Arg>     FRIENDLIST    </Arg>
+    </playerOffline>
+    
+    <!--获取玩家公开数据-->
+    <getPlayerData>
+      <Arg>   UINT64    </Arg>
+    </getPlayerData>
+    
+    <!--获取玩家状态-->
+    <getPlayerListData>
+      <Arg>   FRIENDLIST    </Arg>
+    </getPlayerListData>
+    
+    <!--保存同步好友数据-->
+    <saveSynchroFriend>
+      <Arg>   UINT64    </Arg>
+      <Arg>   UINT64    </Arg>
+    </saveSynchroFriend>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

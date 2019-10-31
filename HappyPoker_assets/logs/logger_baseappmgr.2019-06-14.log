@@ -1,0 +1,842 @@
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 174] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 175] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 175] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 175] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 193] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:58167 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 194] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:58167, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 194] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 194] - 	internalTcpAddr : 192.168.56.1:58167
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:47 194] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:29:47 195] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:48 702] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 11828 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:48 703] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:48 703] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:48 703] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:49 207] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:29:49 222] - Components::process(): Request for the process of identity...
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:29:52 862] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20155, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 905] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 986] - Components::findComponents: found logger, addr:192.168.56.1:58171
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 986] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 986] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 988] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 991] - Components::findComponents: found dbmgr, addr:192.168.56.1:58165
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 991] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:56 991] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:57 105] - Components::findComponents: found dbmgr, addr:192.168.56.1:58165
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:59 125] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:59 154] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58172
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:59 154] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:29:59 160] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58172
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:00 797] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58172, extaddr:nonsupport, extport:0,  from 192.168.56.1:58188/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:01 185] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:01 204] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:01 215] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:01 219] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58173, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:58192/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:01 219] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:03 600] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58169, extaddr:nonsupport, extport:0,  from 192.168.56.1:58195/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:03 600] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:03 778] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58168, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58198/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:03 778] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:08 975] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:30:08 975] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:30:57 837] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:31:00 797] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:58188/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:31:14 358] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:31:28 496] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 135] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 136] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 136] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 136] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 155] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:58855 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 156] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:58855, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 156] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 156] - 	internalTcpAddr : 192.168.56.1:58855
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:55 156] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:51:55 157] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:56 663] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 7832 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:56 663] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:56 664] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:56 664] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:51:57 106] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:51:57 114] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 270] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 291] - Components::findComponents: found logger, addr:192.168.56.1:58852
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 291] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 291] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 293] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 398] - Components::findComponents: found dbmgr, addr:192.168.56.1:58860
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 398] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 399] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:04 399] - Components::findComponents: found dbmgr, addr:192.168.56.1:58860
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:06 409] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:06 453] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58853
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:06 453] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:06 460] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58853
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 503] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 503] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58853, extaddr:nonsupport, extport:0,  from 192.168.56.1:58882/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 503] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 510] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 916] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58856, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:58886/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:08 916] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:11 281] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58858, extaddr:nonsupport, extport:0,  from 192.168.56.1:58893/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:11 281] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:11 540] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58857, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58896/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:11 540] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:16 340] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:52:16 340] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:52:41 986] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:52:57 250] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:53:08 527] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:58882/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:53:20 998] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 643] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 644] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 644] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 644] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 693] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59009 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 694] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59009, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 694] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 694] - 	internalTcpAddr : 192.168.56.1:59009
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:28 694] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:55:28 700] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:30 215] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 1552 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:30 216] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:30 216] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:30 217] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:30 703] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:55:30 704] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 902] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 986] - Components::findComponents: found logger, addr:192.168.56.1:59014
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 986] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 987] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 988] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:37 996] - Components::findComponents: found logger, addr:192.168.56.1:59014
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:38 000] - Components::findComponents: found dbmgr, addr:192.168.56.1:59010
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:38 000] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:38 000] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:38 105] - Components::findComponents: found dbmgr, addr:192.168.56.1:59010
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:40 122] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:40 160] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59006
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:40 161] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:40 162] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59006
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:41 370] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59008, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59029/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:41 370] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:42 121] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59006, extaddr:nonsupport, extport:0,  from 192.168.56.1:59031/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:42 202] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:42 222] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:42 243] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:43 708] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59011, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59035/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:43 708] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:44 891] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59012, extaddr:nonsupport, extport:0,  from 192.168.56.1:59040/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:44 892] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:49 257] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:55:49 257] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 307] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 308] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 308] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 308] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 406] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59087 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 406] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59087, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 406] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 406] - 	internalTcpAddr : 192.168.56.1:59087
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 406] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:56:27 416] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 764] - Components::findLogger: found logger, addr:192.168.56.1:59080
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 765] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 765] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 770] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 9208 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 771] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 771] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:27 772] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:28 194] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:56:28 194] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:35 339] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:35 400] - Components::findComponents: found dbmgr, addr:192.168.56.1:59082
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:35 401] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:35 401] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:35 401] - Components::findComponents: found dbmgr, addr:192.168.56.1:59082
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:37 417] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:37 438] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59085
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:37 438] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:37 438] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59085
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:39 457] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:39 476] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:39 477] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:39 677] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59084, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59104/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:39 677] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:40 609] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59085, extaddr:nonsupport, extport:0,  from 192.168.56.1:59106/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:42 304] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59086, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59108/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:42 304] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:43 231] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59083, extaddr:nonsupport, extport:0,  from 192.168.56.1:59114/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:43 231] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:48 405] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:56:48 405] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:57:14 577] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:57:31 242] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:57:39 502] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59085/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:57:48 748] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 464] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 465] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 465] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 465] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 512] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59184 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 513] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59184, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 513] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 513] - 	internalTcpAddr : 192.168.56.1:59184
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 513] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:58:50 514] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 14:58:50 899] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20748, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 903] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 3064 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 903] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 904] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:50 904] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:51 348] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:58:51 351] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 488] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 562] - Components::findComponents: found logger, addr:192.168.56.1:59181
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 562] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 562] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 564] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 667] - Components::findComponents: found dbmgr, addr:192.168.56.1:59185
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 667] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 667] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:58:58 667] - Components::findComponents: found dbmgr, addr:192.168.56.1:59185
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:00 669] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:00 711] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59182
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:00 711] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:00 712] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59182
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:02 769] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:02 788] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:02 800] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:02 979] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59179, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59203/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:02 979] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:03 804] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59182, extaddr:nonsupport, extport:0,  from 192.168.56.1:59205/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:05 495] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59183, extaddr:nonsupport, extport:0,  from 192.168.56.1:59208/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:05 495] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:06 714] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59186, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59211/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:06 714] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:11 405] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 14:59:11 405] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:59:25 939] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 14:59:48 005] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:00:02 814] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59182/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:00:06 950] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 380] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 381] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 381] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 381] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 407] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59321 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 407] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59321, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 407] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 407] - 	internalTcpAddr : 192.168.56.1:59321
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:49 407] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:02:49 409] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:50 920] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 11440 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:50 921] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:50 921] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:50 922] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:51 349] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:02:51 349] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 494] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 509] - Components::findComponents: found logger, addr:192.168.56.1:59328
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 509] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 509] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 510] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 612] - Components::findComponents: found dbmgr, addr:192.168.56.1:59322
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 613] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 613] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:02:58 613] - Components::findComponents: found dbmgr, addr:192.168.56.1:59322
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:00 624] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:00 666] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59320
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:00 666] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:00 666] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59320
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:01 985] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59324, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59347/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:01 985] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:02 705] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:02 724] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:02 725] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:03 144] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59320, extaddr:nonsupport, extport:0,  from 192.168.56.1:59351/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:04 423] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59326, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59353/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:04 423] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:05 476] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59325, extaddr:nonsupport, extport:0,  from 192.168.56.1:59358/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:05 476] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:10 568] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:03:10 568] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:03:38 549] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:03:57 893] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:02 742] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59320/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:04:14 658] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 110] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 111] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 111] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 111] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 122] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59419 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 122] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59419, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 122] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 122] - 	internalTcpAddr : 192.168.56.1:59419
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:47 122] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:04:47 123] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:48 629] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 16632 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:48 640] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:48 640] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:48 641] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:49 106] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:04:49 114] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 365] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 419] - Components::findComponents: found logger, addr:192.168.56.1:59423
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 420] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 420] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 422] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 525] - Components::findComponents: found dbmgr, addr:192.168.56.1:59420
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 525] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 525] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:56 531] - Components::findComponents: found dbmgr, addr:192.168.56.1:59420
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:58 545] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:58 585] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59422
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:58 586] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:04:58 591] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59422
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:00 626] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:00 646] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:00 666] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:00 755] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59422, extaddr:nonsupport, extport:0,  from 192.168.56.1:59443/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:01 156] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59424, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59445/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:01 156] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:03 659] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59425, extaddr:nonsupport, extport:0,  from 192.168.56.1:59448/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:03 659] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:03 852] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59426, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59451/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:03 852] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:09 511] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:05:09 511] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:05:27 885] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:05:48 989] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:06:12 635] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 748] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 749] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 749] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 749] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 760] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59528 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 760] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59528, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 760] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 793] - 	internalTcpAddr : 192.168.56.1:59528
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:50 793] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:07:50 794] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:07:51 134] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20097, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:51 138] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 13628 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:51 138] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:51 139] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:51 139] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:51 570] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:07:51 597] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 755] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 768] - Components::findComponents: found logger, addr:192.168.56.1:59527
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 769] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 769] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 770] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 873] - Components::findComponents: found dbmgr, addr:192.168.56.1:59526
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 873] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 873] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:07:58 880] - Components::findComponents: found dbmgr, addr:192.168.56.1:59526
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:00 883] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:00 911] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59530
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:00 911] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:00 912] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59530
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:02 956] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:02 962] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:02 983] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:03 081] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59530, extaddr:nonsupport, extport:0,  from 192.168.56.1:59550/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:03 279] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59532, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59552/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:03 279] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:05 763] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59529, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59557/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:05 763] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:05 763] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59531, extaddr:nonsupport, extport:0,  from 192.168.56.1:59558/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:05 763] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:10 556] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:08:10 556] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:08:28 644] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:08:45 008] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:09:02 980] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59530/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:09:03 333] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 829] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 830] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 830] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 830] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 867] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59649 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 867] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59649, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 867] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 868] - 	internalTcpAddr : 192.168.56.1:59649
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:37 868] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:10:37 872] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:39 382] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 13460 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:39 383] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:39 383] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:39 383] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:39 960] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:10:39 979] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 248] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 284] - Components::findComponents: found logger, addr:192.168.56.1:59651
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 284] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 285] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 286] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 390] - Components::findComponents: found dbmgr, addr:192.168.56.1:59647
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 390] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 390] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:47 391] - Components::findComponents: found dbmgr, addr:192.168.56.1:59647
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:49 408] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:49 464] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59646
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:49 464] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:49 473] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59646
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:51 527] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:51 548] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:51 552] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:51 946] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59646, extaddr:nonsupport, extport:0,  from 192.168.56.1:59670/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:52 131] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59648, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59672/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:52 131] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:54 129] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59644, extaddr:nonsupport, extport:0,  from 192.168.56.1:59680/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:54 129] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:54 572] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59645, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59685/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:54 572] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:59 711] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:10:59 711] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:11:05 479] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:11:23 944] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:11:40 067] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:11:51 566] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59646/0/0/0 timeout!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 622] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 623] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 623] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 624] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 674] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59723 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 674] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59723, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 674] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 674] - 	internalTcpAddr : 192.168.56.1:59723
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:46 674] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:12:46 682] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:48 195] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 7084 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:48 196] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:48 196] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:48 197] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:48 678] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:12:48 684] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:55 881] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:55 942] - Components::findComponents: found logger, addr:192.168.56.1:59721
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:55 943] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:55 943] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:55 944] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:56 047] - Components::findComponents: found dbmgr, addr:192.168.56.1:59726
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:56 047] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:56 047] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:56 047] - Components::findComponents: found dbmgr, addr:192.168.56.1:59726
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:58 053] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:58 143] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59725
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:58 143] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:58 144] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59725
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:12:59 146] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59725, extaddr:nonsupport, extport:0,  from 192.168.56.1:59744/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:00 182] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:00 201] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:00 221] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:00 808] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59728, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59749/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:00 808] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:02 916] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59722, extaddr:nonsupport, extport:0,  from 192.168.56.1:59752/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:02 916] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:03 131] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59724, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59755/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:03 131] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:08 629] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:13:08 629] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:13:29 065] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:13:59 131] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:14:22 776] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 582] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 583] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 583] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 583] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 619] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59865 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 619] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59865, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 619] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 619] - 	internalTcpAddr : 192.168.56.1:59865
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:39 620] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:18:39 620] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:41 124] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 14432 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:41 158] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:41 158] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:41 158] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:41 605] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:18:41 605] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:48 811] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:48 896] - Components::findComponents: found logger, addr:192.168.56.1:59868
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:48 896] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:48 896] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:48 898] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:49 000] - Components::findComponents: found dbmgr, addr:192.168.56.1:59871
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:49 000] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:49 001] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:49 001] - Components::findComponents: found dbmgr, addr:192.168.56.1:59871
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:51 002] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:51 058] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59869
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:51 058] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:51 059] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59869
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:52 273] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59870, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:59895/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:52 273] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:53 102] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:53 110] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:53 123] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:53 417] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59869, extaddr:nonsupport, extport:0,  from 192.168.56.1:59902/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:54 667] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59864, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59909/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:54 667] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:54 678] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59867, extaddr:nonsupport, extport:0,  from 192.168.56.1:59912/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:54 678] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:59 882] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:18:59 882] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:19:12 243] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:19:40 507] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=2.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:19:53 123] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:59869/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:20:06 391] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 913] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 914] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 914] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 914] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 923] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60024 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 924] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60024, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 924] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 924] - 	internalTcpAddr : 192.168.56.1:60024
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:35 924] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:33:35 924] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:37 430] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 5844 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:37 431] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:37 431] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:37 431] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:37 849] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:33:37 849] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 015] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 069] - Components::findComponents: found logger, addr:192.168.56.1:60025
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 069] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 069] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 071] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 176] - Components::findComponents: found dbmgr, addr:192.168.56.1:60022
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 176] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 176] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:45 177] - Components::findComponents: found dbmgr, addr:192.168.56.1:60022
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:47 195] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:47 217] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60028
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:47 217] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:47 224] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60028
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:48 429] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60029, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60047/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:48 429] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:49 275] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:49 280] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:49 281] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60028, extaddr:nonsupport, extport:0,  from 192.168.56.1:60050/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:49 281] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:50 842] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60030, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60056/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:50 842] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:50 842] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60027, extaddr:nonsupport, extport:0,  from 192.168.56.1:60057/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:50 842] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:55 940] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:33:55 941] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:34:28 025] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:34:44 389] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:35:10 413] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 986] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 986] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 987] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 987] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 997] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60207 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 998] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60207, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 998] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 998] - 	internalTcpAddr : 192.168.56.1:60207
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:23 998] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:45:23 998] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:45:24 340] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20445, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:24 344] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 14968 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:24 344] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:24 345] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:24 345] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:24 767] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:45:24 788] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:31 927] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:31 934] - Components::findComponents: found logger, addr:192.168.56.1:60204
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:31 934] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:31 935] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:31 936] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:32 039] - Components::findComponents: found dbmgr, addr:192.168.56.1:60205
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:32 039] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:32 039] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:32 040] - Components::findComponents: found dbmgr, addr:192.168.56.1:60205
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:34 047] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:34 071] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60208
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:34 071] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:34 072] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60208
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:36 090] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:36 108] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:36 127] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:36 525] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60211, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60229/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:36 525] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:37 353] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60208, extaddr:nonsupport, extport:0,  from 192.168.56.1:60232/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:38 944] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60210, extaddr:nonsupport, extport:0,  from 192.168.56.1:60239/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:38 944] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:38 958] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60209, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60242/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:45:38 958] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 469] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 470] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 470] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 470] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 484] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60262 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 484] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60262, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 485] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 485] - 	internalTcpAddr : 192.168.56.1:60262
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:06 485] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 15:47:06 485] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:07 990] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 16408 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:07 991] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:07 991] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:07 991] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:08 415] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:47:08 416] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 573] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 619] - Components::findComponents: found logger, addr:192.168.56.1:60257
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 619] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 619] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 621] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 624] - Components::findComponents: found logger, addr:192.168.56.1:60257
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 635] - Components::findComponents: found dbmgr, addr:192.168.56.1:60259
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 635] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 635] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:15 738] - Components::findComponents: found dbmgr, addr:192.168.56.1:60259
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:17 752] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:17 796] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60258
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:17 796] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:17 802] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60258
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 087] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60263, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60280/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 087] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 847] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 848] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60258, extaddr:nonsupport, extport:0,  from 192.168.56.1:60282/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 848] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:19 853] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:21 365] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60261, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60289/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:21 365] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:21 403] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60260, extaddr:nonsupport, extport:0,  from 192.168.56.1:60292/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:21 403] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:26 062] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:47:26 062] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:47:45 388] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:48:04 029] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 15:48:19 855] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:60282/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 15:48:41 572] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 064] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 068] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 068] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 068] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 115] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60441 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 116] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60441, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 116] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 116] - 	internalTcpAddr : 192.168.56.1:60441
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:08 116] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:01:08 118] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:09 627] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 13448 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:09 627] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:09 627] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:09 628] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:10 106] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:01:10 111] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 411] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 440] - Components::findComponents: found logger, addr:192.168.56.1:60440
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 440] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 440] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 443] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 447] - Components::findComponents: found logger, addr:192.168.56.1:60440
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 453] - Components::findComponents: found dbmgr, addr:192.168.56.1:60444
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 453] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 453] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:17 555] - Components::findComponents: found dbmgr, addr:192.168.56.1:60444
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:19 570] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:19 610] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60438
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:19 610] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:19 622] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60438
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:21 048] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60445, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60461/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:21 049] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:21 670] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:21 689] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:21 690] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:23 033] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60438, extaddr:nonsupport, extport:0,  from 192.168.56.1:60465/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:23 613] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60442, extaddr:nonsupport, extport:0,  from 192.168.56.1:60468/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:23 613] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:24 802] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60443, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60471/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:24 802] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:29 599] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:01:29 600] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:01:51 826] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:02:10 407] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:02:21 696] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:60438/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:02:33 348] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 582] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 582] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 582] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 583] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 604] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60540 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 604] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60540, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 604] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 604] - 	internalTcpAddr : 192.168.56.1:60540
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 604] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:07:08 608] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:07:08 951] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20452, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 955] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 11960 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 955] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 955] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:08 956] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:09 372] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:07:09 372] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 519] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 523] - Components::findComponents: found logger, addr:192.168.56.1:60538
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 524] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 524] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 525] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 628] - Components::findComponents: found dbmgr, addr:192.168.56.1:60539
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 628] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 628] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:16 629] - Components::findComponents: found dbmgr, addr:192.168.56.1:60539
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:18 638] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:18 664] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60543
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:18 664] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:18 665] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60543
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:20 698] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:20 717] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:20 737] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:21 229] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60545, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60563/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:21 229] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:21 938] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60543, extaddr:nonsupport, extport:0,  from 192.168.56.1:60565/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:23 534] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60544, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60567/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:23 534] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:25 018] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60541, extaddr:nonsupport, extport:0,  from 192.168.56.1:60572/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:25 018] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:29 894] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:07:29 894] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:08:05 134] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:08:20 725] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:60543/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:08:22 377] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:08:38 618] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:08:38 897] - Baseappmgr::registerPendingAccountToBaseappAddr:12345678, componentID=7001, entityID=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 676] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 677] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 677] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 677] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 699] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60659 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 699] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60659, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 699] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 699] - 	internalTcpAddr : 192.168.56.1:60659
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:22 699] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:14:22 704] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:24 209] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 6416 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:24 210] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:24 210] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:24 211] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:24 659] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:14:24 661] - Components::process(): Request for the process of identity...
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:14:28 102] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20553, errorno=10048
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 172] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 214] - Components::findComponents: found logger, addr:192.168.56.1:60654
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 214] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 214] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 216] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 318] - Components::findComponents: found dbmgr, addr:192.168.56.1:60655
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 318] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 318] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:32 319] - Components::findComponents: found dbmgr, addr:192.168.56.1:60655
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:34 333] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:34 354] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60656
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:34 354] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:34 354] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60656
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 106] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60656, extaddr:nonsupport, extport:0,  from 192.168.56.1:60679/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 393] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 413] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 433] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 841] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60657, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60683/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:36 841] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:37 686] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60658, extaddr:nonsupport, extport:0,  from 192.168.56.1:60686/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:37 686] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:38 939] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60660, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60690/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:38 939] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:43 970] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:14:43 970] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:15:36 113] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:60679/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:15:52 338] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:16:07 379] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:16:23 520] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 288] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 289] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 289] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 289] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 336] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:60785 )
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 337] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:60785, SOMAXCONN=5.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 337] - server-configs:
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 337] - 	internalTcpAddr : 192.168.56.1:60785
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:10 337] - 	componentID : 5000
+ WARNING baseappmgr-1 3960 5000  [2019-06-14 16:20:10 338] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:11 845] - ---- baseappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X86. Built: 09:55:58 May  8 2019. AppID: 5000. UID: 3960. PID: 6588 ----
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:11 846] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:11 847] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:11 847] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:12 281] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:20:12 281] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 430] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 459] - Components::findComponents: found logger, addr:192.168.56.1:60783
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 459] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 459] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 461] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 562] - Components::findComponents: found dbmgr, addr:192.168.56.1:60788
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 563] - Components::addComponent: reset orderLog, uid=3960!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 563] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:19 563] - Components::findComponents: found dbmgr, addr:192.168.56.1:60788
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:21 569] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:21 616] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60786
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:21 616] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:21 617] - Components::findComponents: found cellappmgr, addr:192.168.56.1:60786
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:22 940] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60790, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:60807/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:22 940] - Components::addComponent[loginapp], uid=3960, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:23 649] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:23 668] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:23 689] - Components::process(): Found all the components!
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:24 075] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60786, extaddr:nonsupport, extport:0,  from 192.168.56.1:60811/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:25 233] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60787, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:60813/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:25 233] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:26 647] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:60789, extaddr:nonsupport, extport:0,  from 192.168.56.1:60818/0/0/0.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:26 647] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:31 432] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:20:31 432] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:20:56 186] - Baseappmgr::registerPendingAccountToBaseapp:111. allocBaseapp=7001, numEntities=1.
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:21:12 626] - Baseappmgr::registerPendingAccountToBaseapp:123456. allocBaseapp=7001, numEntities=3.
+    INFO baseappmgr-1 3960 5000  [2019-06-14 16:21:23 672] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:60786/0/0/0 timeout!
+   DEBUG baseappmgr-1 3960 5000  [2019-06-14 16:21:32 166] - Baseappmgr::registerPendingAccountToBaseapp:12345678. allocBaseapp=7001, numEntities=4.

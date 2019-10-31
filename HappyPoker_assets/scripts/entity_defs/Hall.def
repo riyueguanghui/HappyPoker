@@ -1,0 +1,47 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+    <!--匹配游戏-->
+    <matchGame>
+      <Arg>   ENTITYCALL    </Arg>
+    </matchGame>
+    
+    <!--加入房间-->
+    <joinGame>
+      <Arg>   UINT64    </Arg>
+      <Arg>   ENTITYCALL    </Arg>
+    </joinGame>
+    
+    <!--创建房间-->
+    <createGame>
+      <Arg>   UINT64    </Arg>
+      <Arg>   ENTITYCALL    </Arg>
+    </createGame>
+    
+    <!--房间需要玩家-->
+    <roomNeedPlayer>
+      <Arg>   ENTITYCALL    </Arg>
+      <Arg>   UINT64    </Arg>
+    </roomNeedPlayer>
+    
+    <!--房间不需要玩家了-->
+    <roomNotNeedPlayer>
+      <Arg>   ENTITYCALL    </Arg>
+      <Arg>   UINT64    </Arg>
+    </roomNotNeedPlayer>
+    
+    <!--玩家离开房间-->
+    <leaveRoom>
+      <Arg>   ENTITYCALL    </Arg>
+    </leaveRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

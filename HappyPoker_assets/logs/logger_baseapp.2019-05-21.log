@@ -1,0 +1,970 @@
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:03 939] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:03 957] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:03 957] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:03 957] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 003] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 003] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 006] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 006] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 010] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53723 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 010] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53723, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 010] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 010] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 010] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 011] - 	internalTcpAddr : 192.168.56.1:53723
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 011] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 011] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 011] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:03:04 174] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 301] - Components::findLogger: found logger, addr:192.168.56.1:53691
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 302] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 302] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 307] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 11172 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 308] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 308] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 309] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 513] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 514] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:03:04 817] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:03:04 818] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:03:04 818] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 819] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:04 830] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:05 316] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:03:05 316] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:03:11 717] - EntityApp::checkTickPeriod: tick took 6391% (6.39 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:12 788] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:12 832] - Components::findComponents: found dbmgr, addr:192.168.56.1:53700
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:12 832] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:12 832] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:12 832] - Components::findComponents: found dbmgr, addr:192.168.56.1:53700
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:03:13 848] - EntityApp::checkTickPeriod: tick took 1120% (1.12 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:14 898] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:15 021] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53713
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:15 021] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:15 022] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53713
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:03:16 039] - EntityApp::checkTickPeriod: tick took 1220% (1.22 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:17 097] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:17 182] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53719
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:17 182] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:17 183] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53719
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:03:18 189] - EntityApp::checkTickPeriod: tick took 1170% (1.17 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:19 229] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:03:19 229] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:19 289] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:19 328] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:19 389] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:03:22 262] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:03:22 262] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:03:23 674] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:03:23 674] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.42 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:03:23 674] - EntityApp::checkTickPeriod: tick took 1445% (1.45 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:03:23 899] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:03:23 919] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+    INFO    baseapp01 3960 7001  [2019-05-21 19:03:23 938] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:03:23 999] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 3960 7001  [2019-05-21 19:03:27 790] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.56.1, intport:53731, extaddr:nonsupport, extport:0,  from 192.168.56.1:53700/0/0/0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:03:27 791] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 290] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 291] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 291] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 291] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 325] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 325] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 331] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 331] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 334] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53821 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53821, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - 	internalTcpAddr : 192.168.56.1:53821
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 335] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 336] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:04:31 504] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 819] - Components::findLogger: found logger, addr:192.168.56.1:53819
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 819] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 819] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 824] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 17984 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 825] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 825] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:31 825] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:32 032] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:32 033] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:04:32 154] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:04:32 154] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:04:32 155] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:32 155] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:32 155] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:32 569] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:04:32 569] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:04:38 800] - EntityApp::checkTickPeriod: tick took 6232% (6.23 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:39 868] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:39 913] - Components::findComponents: found dbmgr, addr:192.168.56.1:53817
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:39 913] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:39 913] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:39 914] - Components::findComponents: found dbmgr, addr:192.168.56.1:53817
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:04:40 929] - EntityApp::checkTickPeriod: tick took 1160% (1.16 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:41 969] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:42 033] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53816
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:42 034] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:42 035] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53816
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:04:43 039] - EntityApp::checkTickPeriod: tick took 1170% (1.17 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:44 078] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:44 160] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53820
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:44 160] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:44 161] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53820
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:04:45 179] - EntityApp::checkTickPeriod: tick took 1200% (1.20 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:46 269] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:04:46 270] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:46 309] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:46 369] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:46 409] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:47 610] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:53822, extaddr:nonsupport, extport:0,  from 192.168.56.1:53817/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:47 610] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:04:50 619] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:04:50 619] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:04:51 239] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20307, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:04:52 630] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:04:52 630] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.01 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:04:52 631] - EntityApp::checkTickPeriod: tick took 2052% (2.05 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:04:52 968] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:04:53 009] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 3960 7001  [2019-05-21 19:04:53 010] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:04:53 070] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:05:02 829] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:05:02 855] - Channel::handshake: kcp(192.168.56.1:52084/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:05:02 903] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:52084/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:05:02 903] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:52084/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:05:02 947] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:52084/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:05:03 029] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:05:03 057] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:05:03 067] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 192.168.56.1:52084.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:05:03 067] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693434672271523840, entityID=2, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:05:05 479] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:05:05 479] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:05:05 487] - EntityApp::createEntity: new Room 3
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:05:05 540] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:05:05 553] - 3333333333333333
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:05:05 553] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:05:05 571] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:06:17 527] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:06:17 544] - Channel::handshake: kcp(192.168.56.1:54676/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:06:17 571] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:54676/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:06:17 571] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:54676/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:06:17 619] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:54676/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:06:17 745] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:06:17 746] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:17 746] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.56.1:54676.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:06:17 746] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693434990099103744, entityID=4, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:19 187] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:19 187] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:19 367] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:19 367] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:06:19 368] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:07:02 859] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:52084/1/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:07:02 859] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:07:02 859] - Account[2].onClientDeath:
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:08:09 204] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:08:09 222] - Channel::handshake: kcp(192.168.56.1:53147/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:08:09 249] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:53147/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:08:09 249] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:53147/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:08:09 298] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:53147/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:08:09 363] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:08:09 363] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:09 364] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.56.1:53147.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:08:09 364] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693435471135440896, entityID=5, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:10 733] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:10 733] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:10 866] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:10 866] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:08:10 867] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:08:47 548] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:54676/2/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:08:47 548] - Account::onClientDeath: 4.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:08:47 548] - Account[4].onClientDeath:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 131] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 132] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 132] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 132] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 146] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 146] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 152] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 152] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53977 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53977, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - 	internalTcpAddr : 192.168.56.1:53977
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 156] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 157] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:18 332] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:18 938] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20776, errorno=10048
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 943] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 7976 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 943] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 943] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:18 944] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:19 153] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:19 153] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:09:19 265] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:09:19 266] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:09:19 266] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:19 266] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:19 267] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:19 668] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:09:19 668] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:25 951] - EntityApp::checkTickPeriod: tick took 6282% (6.28 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:26 969] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 072] - Components::findComponents: found logger, addr:192.168.56.1:53974
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 072] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 073] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 074] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 192] - Components::findComponents: found dbmgr, addr:192.168.56.1:53972
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 192] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 192] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:27 192] - Components::findComponents: found dbmgr, addr:192.168.56.1:53972
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:28 199] - EntityApp::checkTickPeriod: tick took 1330% (1.33 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:29 238] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:29 359] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53976
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:29 359] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:29 359] - Components::findComponents: found baseappmgr, addr:192.168.56.1:53976
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:30 358] - EntityApp::checkTickPeriod: tick took 1180% (1.18 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:31 378] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:31 502] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53975
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:31 502] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:31 503] - Components::findComponents: found cellappmgr, addr:192.168.56.1:53975
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:09:32 508] - EntityApp::checkTickPeriod: tick took 1227% (1.23 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:33 648] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:09:33 649] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:33 669] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:33 748] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:33 769] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:34 369] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:53978, extaddr:nonsupport, extport:0,  from 192.168.56.1:53972/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:34 370] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:09:37 379] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:37 379] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:09:37 998] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20440, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:39 389] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:09:39 389] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.01 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:09:39 390] - EntityApp::checkTickPeriod: tick took 2012% (2.01 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:09:39 548] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:39 589] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:39 590] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:09:39 648] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:09:48 777] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:09:48 805] - Channel::handshake: kcp(192.168.56.1:56019/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:48 832] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:56019/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:09:48 832] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:56019/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:48 879] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:56019/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:09:48 996] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:48 997] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:48 997] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 192.168.56.1:56019.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:48 997] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693435896337203200, entityID=2, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:52 816] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:52 816] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:09:52 869] - EntityApp::createEntity: new Room 3
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:52 872] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:09:52 872] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:09:52 872] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:09:52 874] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:11:18 808] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:56019/1/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:11:18 808] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:11:18 808] - Account[2].onClientDeath:
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:11:28 654] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:11:28 680] - Channel::handshake: kcp(192.168.56.1:53756/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:11:28 708] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:53756/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:11:28 708] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:53756/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:11:28 756] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:53756/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:11:28 833] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:11:28 834] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:28 834] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.56.1:53756.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:11:28 834] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693436325833932800, entityID=4, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:30 280] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:30 280] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:30 763] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:30 763] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:11:30 763] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:12:38 252] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:12:38 264] - Channel::handshake: kcp(192.168.56.1:51010/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:12:38 289] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:51010/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:12:38 289] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:51010/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:12:38 337] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:51010/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:12:38 412] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:12:38 412] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:38 413] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.56.1:51010.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:12:38 413] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693436626481643520, entityID=5, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:39 461] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:39 461] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:39 759] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:39 759] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:12:39 760] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:13:28 674] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:53756/2/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:13:28 674] - Account::onClientDeath: 4.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:13:28 674] - Account[4].onClientDeath:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 826] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 827] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 827] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 827] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 851] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 853] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 857] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 857] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 861] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54104 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 861] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54104, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - 	internalTcpAddr : 192.168.56.1:54104
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 862] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:41 863] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:42 034] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 407] - Components::findLogger: found logger, addr:192.168.56.1:54107
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 407] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 407] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 412] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 13388 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 412] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 413] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 413] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 623] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 623] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:14:42 732] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:14:42 733] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:14:42 733] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 733] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:42 734] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:43 125] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:14:43 125] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:43 748] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20083, errorno=10048
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:47 587] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20636, errorno=10048
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:50 681] - EntityApp::checkTickPeriod: tick took 7556% (7.56 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:51 838] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:51 939] - Components::findComponents: found dbmgr, addr:192.168.56.1:54099
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:51 939] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:51 939] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:51 940] - Components::findComponents: found dbmgr, addr:192.168.56.1:54099
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:52 958] - EntityApp::checkTickPeriod: tick took 1218% (1.22 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:54 028] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:54 073] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54101
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:54 073] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:54 073] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54101
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:55 068] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:56 124] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:56 142] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54102
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:56 142] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:56 142] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54102
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:14:57 142] - EntityApp::checkTickPeriod: tick took 1117% (1.12 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 237] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:14:58 238] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 240] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 241] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:54106, extaddr:nonsupport, extport:0,  from 192.168.56.1:54139/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 241] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 241] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:54106, extaddr:nonsupport, extport:0,  from 192.168.56.1:54139/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 241] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:14:58 324] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:15:01 259] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:01 259] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:15:01 878] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20552, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:03 107] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:15:03 107] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.85 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:15:03 108] - EntityApp::checkTickPeriod: tick took 1870% (1.87 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:15:03 225] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:03 237] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:03 238] - EntityApp::createEntity: new Hall 2001
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:15:03 324] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:15:07 759] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:15:07 800] - Channel::handshake: kcp(192.168.56.1:65204/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:07 828] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:65204/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:15:07 829] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:65204/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:07 859] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:65204/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:15:07 918] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:07 918] - EntityApp::createEntity: new Account 2002
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:07 919] - account[2002] entities enable. entityCall:Client id:2002, utype:1, component=client[0], addr: 192.168.56.1:65204.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:07 919] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693437266431770624, entityID=2002, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:09 359] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:09 359] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:15:09 429] - EntityApp::createEntity: new Room 2003
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:09 432] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:15:09 432] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:15:09 432] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:15:09 434] - entityCall without cell!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 475] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 476] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 476] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 476] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 518] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 518] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 524] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 524] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 532] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54182 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 532] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54182, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	internalTcpAddr : 192.168.56.1:54182
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:32 533] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:32 708] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 216] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 8716 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 218] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 218] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 218] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 459] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 459] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:17:34 582] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:17:34 582] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:17:34 583] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 583] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:34 583] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:35 049] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:17:35 049] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:41 351] - EntityApp::checkTickPeriod: tick took 6301% (6.30 seconds)!
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:41 364] - TCPPacketReceiver::processPendingEvents(192.168.56.1:54195): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:42 368] - Components::findComponents: find logger(1)...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:42 988] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20382, errorno=10048
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:42 989] - EntityApp::checkTickPeriod: tick took 721% (0.72 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 068] - Components::findComponents: find logger(2)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 132] - Components::findComponents: found logger, addr:192.168.56.1:54186
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 132] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 132] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 133] - Components::findComponents: find dbmgr(3)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 251] - Components::findComponents: found dbmgr, addr:192.168.56.1:54179
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 251] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 251] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:44 251] - Components::findComponents: found dbmgr, addr:192.168.56.1:54179
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:45 258] - EntityApp::checkTickPeriod: tick took 1290% (1.29 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:46 257] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:46 279] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54180
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:46 279] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:46 280] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54180
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:47 298] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:48 367] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:48 432] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54181
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:48 432] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:48 432] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54181
+ WARNING    baseapp-1 3960 7001  [2019-05-21 19:17:49 448] - EntityApp::checkTickPeriod: tick took 1180% (1.18 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 568] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 19:17:50 569] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 570] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 571] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:54184, extaddr:nonsupport, extport:0,  from 192.168.56.1:54225/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 571] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 571] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:54184, extaddr:nonsupport, extport:0,  from 192.168.56.1:54225/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 571] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:50 587] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 19:17:53 579] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:17:53 579] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:17:54 198] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20198, errorno=10048
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:17:54 836] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20523, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:17:56 208] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:17:56 208] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.63 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:17:56 209] - EntityApp::checkTickPeriod: tick took 2651% (2.65 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:17:56 387] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:17:56 468] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 3960 7001  [2019-05-21 19:17:56 469] - EntityApp::createEntity: new Hall 2001
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:17:56 488] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:18:12 178] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:18:12 194] - Channel::handshake: kcp(192.168.56.1:51720/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:18:12 236] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:51720/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 19:18:12 236] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:51720/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 19:18:12 268] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:51720/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 19:18:12 318] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:18:12 318] - EntityApp::createEntity: new Account 2002
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:18:12 319] - account[2002] entities enable. entityCall:Client id:2002, utype:1, component=client[0], addr: 192.168.56.1:51720.
+    INFO    baseapp01 3960 7001  [2019-05-21 19:18:12 319] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693438061000720384, entityID=2002, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:18:14 123] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:18:14 123] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 19:18:14 150] - EntityApp::createEntity: new Room 2003
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:18:14 153] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 19:18:14 153] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:18:14 153] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 19:18:14 157] - entityCall without cell!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 243] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 244] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 244] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 244] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 279] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 279] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 284] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 284] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 288] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54855 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 288] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54855, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 288] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	internalTcpAddr : 192.168.56.1:54855
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:17 289] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:17 457] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:18 060] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20111, errorno=10048
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 065] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 1816 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 066] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 066] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 066] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 277] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 277] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:52:18 389] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:52:18 389] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:52:18 390] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 390] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 390] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:18 820] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:52:18 826] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:25 133] - EntityApp::checkTickPeriod: tick took 6312% (6.31 seconds)!
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:25 140] - TCPPacketReceiver::processPendingEvents(192.168.56.1:54866): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 170] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 233] - Components::findComponents: found logger, addr:192.168.56.1:54852
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 233] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 233] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 234] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 354] - Components::findComponents: found dbmgr, addr:192.168.56.1:54851
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 354] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 354] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:26 360] - Components::findComponents: found dbmgr, addr:192.168.56.1:54851
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:27 370] - EntityApp::checkTickPeriod: tick took 1240% (1.24 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:28 370] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:28 395] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54848
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:28 395] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:28 395] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54848
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:29 410] - EntityApp::checkTickPeriod: tick took 1080% (1.08 seconds)!
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:29 412] - TCPPacketReceiver::processPendingEvents(192.168.56.1:54883): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:30 430] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:30 552] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54847
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:30 552] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:30 552] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54847
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:52:31 569] - EntityApp::checkTickPeriod: tick took 1238% (1.24 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:32 667] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:52:32 668] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:32 730] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:32 768] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:32 830] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:34 272] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:54854, extaddr:nonsupport, extport:0,  from 192.168.56.1:54851/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:34 272] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:52:37 289] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:52:37 289] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:52:37 910] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20377, errorno=10048
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:52:38 541] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20467, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:52:39 920] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:52:39 921] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.63 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:52:39 921] - EntityApp::checkTickPeriod: tick took 2691% (2.69 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:52:40 280] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:52:40 320] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 3960 7001  [2019-05-21 20:52:40 321] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:52:40 380] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:53:54 233] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:53:54 247] - Channel::handshake: kcp(192.168.56.1:63682/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:53:54 273] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:63682/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:53:54 274] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:63682/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 20:53:54 321] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:63682/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:53:54 391] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:53:54 392] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:53:54 392] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 192.168.56.1:63682.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:53:54 392] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693462722702934016, entityID=2, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:53:55 745] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:53:55 746] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:53:55 821] - EntityApp::createEntity: new Room 3
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:53:55 824] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:53:55 824] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 20:53:55 824] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 20:53:55 826] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:14 484] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:14 490] - Channel::handshake: kcp(192.168.56.1:55359/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:14 540] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:55359/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:54:14 541] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:55359/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:14 571] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:55359/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:14 643] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:14 644] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:14 644] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.56.1:55359.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:14 644] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693462808602279936, entityID=4, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:15 988] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:15 988] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:16 218] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:16 218] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:16 220] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:33 936] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:33 975] - Channel::handshake: kcp(192.168.56.1:56481/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:34 007] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:56481/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:54:34 007] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:56481/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:34 038] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:56481/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:54:34 115] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:34 115] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:34 116] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.56.1:56481.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:54:34 116] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693462894501625856, entityID=5, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:35 787] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:35 787] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:36 218] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:36 218] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:54:36 219] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:55:54 245] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:63682/1/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:55:54 245] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 20:55:54 245] - Account[2].onClientDeath:
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 832] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 833] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 833] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 833] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 852] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 853] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 856] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 856] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 860] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54940 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54940, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - 	internalTcpAddr : 192.168.56.1:54940
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 861] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:21 862] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:22 027] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:23 533] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 8992 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:23 550] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:23 584] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:23 585] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:24 026] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:24 026] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:57:24 177] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:57:24 177] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:57:24 178] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:24 178] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:24 178] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:24 616] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:57:24 616] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:30 883] - EntityApp::checkTickPeriod: tick took 6266% (6.27 seconds)!
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:30 896] - TCPPacketReceiver::processPendingEvents(192.168.56.1:54954): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:31 920] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 005] - Components::findComponents: found logger, addr:192.168.56.1:54936
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 005] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 006] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 007] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 124] - Components::findComponents: found dbmgr, addr:192.168.56.1:54938
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 124] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 125] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:32 125] - Components::findComponents: found dbmgr, addr:192.168.56.1:54938
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:33 121] - EntityApp::checkTickPeriod: tick took 1300% (1.30 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:34 159] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:34 166] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54933
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:34 166] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:34 171] - Components::findComponents: found baseappmgr, addr:192.168.56.1:54933
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:35 180] - EntityApp::checkTickPeriod: tick took 1060% (1.06 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:36 219] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:36 326] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54939
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:36 326] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:36 331] - Components::findComponents: found cellappmgr, addr:192.168.56.1:54939
+ WARNING    baseapp-1 3960 7001  [2019-05-21 20:57:37 340] - EntityApp::checkTickPeriod: tick took 1220% (1.22 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 458] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 20:57:38 459] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 481] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:54935, extaddr:nonsupport, extport:0,  from 192.168.56.1:54938/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 481] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 483] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 519] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:38 558] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 20:57:41 490] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:57:41 490] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:57:42 100] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20736, errorno=10048
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:57:42 740] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20777, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:57:44 120] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:57:44 120] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.63 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:57:44 120] - EntityApp::checkTickPeriod: tick took 2691% (2.69 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:57:44 259] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:57:44 320] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 3960 7001  [2019-05-21 20:57:44 321] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:57:44 360] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:59:50 488] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:59:50 509] - Channel::handshake: kcp(192.168.56.1:61586/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:59:50 534] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:61586/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 20:59:50 535] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:61586/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 20:59:50 566] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:61586/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 20:59:50 627] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:59:50 627] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:59:50 628] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 192.168.56.1:61586.
+    INFO    baseapp01 3960 7001  [2019-05-21 20:59:50 628] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693464251711291392, entityID=2, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:59:51 916] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:59:51 916] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 20:59:52 014] - EntityApp::createEntity: new Room 3
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:59:52 018] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 20:59:52 018] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 20:59:52 019] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 20:59:52 021] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:07 588] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:07 607] - Channel::handshake: kcp(192.168.56.1:59788/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:07 641] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:59788/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:00:07 641] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:59788/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:07 671] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:59788/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:07 726] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:07 727] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:07 727] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.56.1:59788.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:07 727] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693464324725735424, entityID=4, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:08 954] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:08 954] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:09 413] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:09 413] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:09 414] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:27 547] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:27 558] - Channel::handshake: kcp(192.168.56.1:63606/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:27 607] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:63606/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:00:27 607] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:63606/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:27 638] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:63606/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:00:27 705] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:27 706] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:27 706] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.56.1:63606.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:00:27 706] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693464410625081344, entityID=5, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:29 054] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:29 054] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:29 413] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:29 413] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:00:29 414] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:01:50 506] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:61586/1/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:01:50 506] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:01:50 506] - Account[2].onClientDeath:
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 797] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 797] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 798] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 798] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 809] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 810] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 813] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 813] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 816] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:55020 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 816] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:55020, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 816] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 816] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 817] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 817] - 	internalTcpAddr : 192.168.56.1:55020
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 817] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 817] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:16 818] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:17 022] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 546] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 8392 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 546] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 547] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 547] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 755] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 755] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:03:18 876] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:03:18 877] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:03:18 877] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 877] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:18 878] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:19 313] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:03:19 313] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:25 561] - EntityApp::checkTickPeriod: tick took 6248% (6.25 seconds)!
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:25 572] - TCPPacketReceiver::processPendingEvents(192.168.56.1:55036): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 600] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 684] - Components::findComponents: found logger, addr:192.168.56.1:55026
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 684] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 684] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 685] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 690] - Components::findComponents: found logger, addr:192.168.56.1:55026
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 693] - Components::findComponents: found dbmgr, addr:192.168.56.1:55023
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 693] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 693] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:26 801] - Components::findComponents: found dbmgr, addr:192.168.56.1:55023
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:27 810] - EntityApp::checkTickPeriod: tick took 1290% (1.29 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:28 809] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:28 831] - Components::findComponents: found baseappmgr, addr:192.168.56.1:55025
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:28 831] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:28 832] - Components::findComponents: found baseappmgr, addr:192.168.56.1:55025
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:29 850] - EntityApp::checkTickPeriod: tick took 1121% (1.12 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:30 889] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:30 993] - Components::findComponents: found cellappmgr, addr:192.168.56.1:55022
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:30 993] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:30 993] - Components::findComponents: found cellappmgr, addr:192.168.56.1:55022
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:03:32 010] - EntityApp::checkTickPeriod: tick took 1181% (1.18 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 109] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:03:33 111] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 112] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 113] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:55021, extaddr:nonsupport, extport:0,  from 192.168.56.1:55066/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 113] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 113] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:55021, extaddr:nonsupport, extport:0,  from 192.168.56.1:55066/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 114] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:33 209] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:03:36 130] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:36 130] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:03:36 749] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20193, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:38 210] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:03:38 210] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.08 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:03:38 210] - EntityApp::checkTickPeriod: tick took 2081% (2.08 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:03:38 409] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:38 429] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:38 430] - EntityApp::createEntity: new Hall 2001
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:03:38 509] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:03:48 089] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:03:48 101] - Channel::handshake: kcp(192.168.56.1:56023/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:48 144] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:56023/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:03:48 144] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:56023/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:48 175] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:56023/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:03:48 248] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:48 249] - EntityApp::createEntity: new Account 2002
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:48 249] - account[2002] entities enable. entityCall:Client id:2002, utype:1, component=client[0], addr: 192.168.56.1:56023.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:48 249] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693465273913507840, entityID=2002, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:49 973] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:49 973] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:03:50 014] - EntityApp::createEntity: new Room 2003
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:50 016] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:03:50 016] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:03:50 016] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:03:50 020] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:04 528] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:04 559] - Channel::handshake: kcp(192.168.56.1:62917/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:04 590] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:62917/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:04:04 591] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:62917/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:04 621] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:62917/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:04 707] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:04 708] - EntityApp::createEntity: new Account 2004
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:04 708] - account[2004] entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.56.1:62917.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:04 708] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693465342632984576, entityID=2004, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:05 821] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:05 821] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:05 910] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:05 910] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:05 911] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:24 808] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:24 826] - Channel::handshake: kcp(192.168.56.1:61339/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:24 858] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:61339/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:04:24 858] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:61339/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:24 906] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:61339/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:04:24 987] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:24 988] - EntityApp::createEntity: new Account 2005
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:24 988] - account[2005] entities enable. entityCall:Client id:2005, utype:1, component=client[0], addr: 192.168.56.1:61339.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:04:24 988] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693465428532330496, entityID=2005, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:26 222] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:26 222] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:26 409] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:26 409] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:04:26 411] - entityCall without cell!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 913] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 914] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 914] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 914] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 927] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 928] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 933] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 933] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 938] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:55103 )
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 938] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:55103, SOMAXCONN=128.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 938] - server-configs:
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 938] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 939] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 939] - 	internalTcpAddr : 192.168.56.1:55103
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 939] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 939] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:38 939] - 	componentID : 7001
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:05:39 124] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 459] - Components::findLogger: found logger, addr:192.168.56.1:55099
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 459] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 459] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 464] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 3960. PID: 13660 ----
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 464] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 465] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 465] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 671] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 671] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:05:39 789] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:05:39 790] - loaded entity-script:Hall(2).
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:05:39 790] - loaded entity-script:Room(3).
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 790] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:39 791] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:40 214] - ---- baseapp is running ----
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:05:40 232] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:05:46 542] - EntityApp::checkTickPeriod: tick took 6328% (6.33 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:47 719] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:47 740] - Components::findComponents: found dbmgr, addr:192.168.56.1:55106
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:47 741] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:47 741] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:47 741] - Components::findComponents: found dbmgr, addr:192.168.56.1:55106
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:05:48 759] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:49 799] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:49 903] - Components::findComponents: found baseappmgr, addr:192.168.56.1:55104
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:49 903] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:49 903] - Components::findComponents: found baseappmgr, addr:192.168.56.1:55104
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:05:50 919] - EntityApp::checkTickPeriod: tick took 1200% (1.20 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:52 017] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:52 040] - Components::findComponents: found cellappmgr, addr:192.168.56.1:55102
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:52 040] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:52 041] - Components::findComponents: found cellappmgr, addr:192.168.56.1:55102
+ WARNING    baseapp-1 3960 7001  [2019-05-21 21:05:53 059] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:54 219] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 3960 7001  [2019-05-21 21:05:54 220] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:54 319] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:54 419] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:54 519] - Components::process(): Found all the components!
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:55 881] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:55101, extaddr:nonsupport, extport:0,  from 192.168.56.1:55106/0/0/0.
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:55 881] - Components::addComponent[cellapp], uid=3960, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 3960 7001  [2019-05-21 21:05:58 900] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=2C74E778B8FA1A5BE3F8033147922F39.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:05:58 900] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:05:59 519] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20654, errorno=10048
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:06:00 919] - onInit::isReload:0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:06:00 919] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.02 seconds
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:06:00 920] - EntityApp::checkTickPeriod: tick took 2100% (2.10 seconds)!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:06:01 319] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:06:01 419] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 3960 7001  [2019-05-21 21:06:01 420] - EntityApp::createEntity: new Hall 1
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:06:01 519] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:39 518] - PendingLoginMgr::add: 111, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:39 550] - Channel::handshake: kcp(192.168.56.1:58393/1/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:39 577] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:58393/1/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:07:39 577] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:58393/1/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:39 608] - Baseapp::loginBaseapp: new user[111], channel[192.168.56.1:58393/1/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:39 758] - PendingLoginMgr::remove: 111, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:39 758] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:39 759] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 192.168.56.1:58393.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:39 759] - Baseapp::onQueryAccountCBFromDbmgr: user=111, uuid=6693466266050953216, entityID=2, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:41 510] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:41 510] - successful to match game!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:41 512] - EntityApp::createEntity: new Room 3
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:41 516] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:41 516] - 111
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:07:41 517] - onGlobalData: Room_1
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:07:41 519] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:57 818] - PendingLoginMgr::add: 123456, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:57 826] - Channel::handshake: kcp(192.168.56.1:64986/2/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:57 874] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:64986/2/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:07:57 875] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:64986/2/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:57 905] - Baseapp::loginBaseapp: new user[123456], channel[192.168.56.1:64986/2/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:07:58 017] - PendingLoginMgr::remove: 123456, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:58 017] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:58 018] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.56.1:64986.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:07:58 018] - Baseapp::onQueryAccountCBFromDbmgr: user=123456, uuid=6693466347655331840, entityID=4, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:59 239] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:59 239] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:59 410] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:59 410] - 123456
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:07:59 411] - entityCall without cell!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:08:18 939] - PendingLoginMgr::add: 12345678, size=1.
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:08:18 976] - Channel::handshake: kcp(192.168.56.1:61022/3/0/0) successfully!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:08:19 011] - ServerApp::onHello: verInfo=2.4.5, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.56.1:61022/3/0/0
+ WARNING    baseapp01 3960 7001  [2019-05-21 21:08:19 011] - Baseapp::onHello: client is not encrypted, addr=192.168.56.1:61022/3/0/0
+    INFO    baseapp01 3960 7001  [2019-05-21 21:08:19 039] - Baseapp::loginBaseapp: new user[12345678], channel[192.168.56.1:61022/3/0/0].
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:08:19 117] - PendingLoginMgr::remove: 12345678, size=0.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:08:19 117] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:19 117] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.56.1:61022.
+    INFO    baseapp01 3960 7001  [2019-05-21 21:08:19 117] - Baseapp::onQueryAccountCBFromDbmgr: user=12345678, uuid=6693466437849645056, entityID=5, flags=0, deadline=0.
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:20 373] - player start to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:20 373] - successful to match game!
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:20 411] - 3333333333333333
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:20 411] - 12345678
+  S_INFO    baseapp01 3960 7001  [2019-05-21 21:08:20 413] - entityCall without cell!
+    INFO    baseapp01 3960 7001  [2019-05-21 21:09:39 548] - ServerApp::onChannelTimeOut: Channel 192.168.56.1:58393/1/0/0 timeout!
+   DEBUG    baseapp01 3960 7001  [2019-05-21 21:09:39 548] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 3960 7001  [2019-05-21 21:09:39 548] - Account[2].onClientDeath:

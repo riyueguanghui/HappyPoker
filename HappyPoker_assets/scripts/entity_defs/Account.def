@@ -1,0 +1,269 @@
+<root>
+	<Properties>
+    <!--玩家名称-->
+    <playerName>
+      <Type>    UNICODE   </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+    </playerName>
+    
+    <!--玩家ID-->
+    <playerId>
+      <Type>    UINT16    </Type>
+      <Flags>   BASE_AND_CLIENT    </Flags>
+      <Persistent>    true    </Persistent>
+    </playerId>
+    
+    <!--玩家欢乐豆数量-->
+    <playerBean>
+      <Type>    INT32    </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+    </playerBean>
+    
+    <!--是否是新玩家-->
+    <playerNew>
+      <Type>    UINT8   </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+      <Default>   1   </Default>
+    </playerNew>
+    
+    <!--玩家房间内编号-->
+    <roomIndex>
+      <Type>    UINT8   </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+    </roomIndex>
+    
+    <!--玩家数据，其他客户端调用-->
+    <playerData>
+      <Type>    ENTITYDATA    </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+    </playerData>
+
+    <!--玩家扑克牌-->
+    <playerPoker>
+      <Type>    POKERLIST   </Type>
+      <Flags>   OWN_CLIENT  </Flags>
+    </playerPoker>
+    
+    <!--玩家的好友-->
+    <friendList>
+      <Type>   FRIENDLIST   </Type>
+      <Flags>   BASE_AND_CLIENT    </Flags>
+      <Persistent>    true    </Persistent>
+      <Default>    []   </Default>
+    </friendList>
+    
+    
+	</Properties>
+
+	<ClientMethods>
+    <!--返回创建房间错误消息-->
+    <returnErrorMessage>
+      <Arg>   INT8    </Arg>
+    </returnErrorMessage>
+    
+    <!--告诉客户端加载扑克牌-->
+    <initGamePoker>
+    </initGamePoker>
+ 
+
+    <!--通知客户端叫地主-->
+    <notifyToCallLandlord>
+    </notifyToCallLandlord>
+    
+    <!--通知客户端打牌-->
+    <notifyToPlayPoker>
+      <Arg>   INT8    </Arg>
+    </notifyToPlayPoker>
+    
+    <!--有玩家准备游戏-->
+    <playerReadyGame>
+      <Arg>   INT8    </Arg>
+      <Arg>   INT8    </Arg>
+    </playerReadyGame>
+    
+    <!--玩家抢地主环节-->
+    <playerToLandlord>
+      <Arg>   INT8    </Arg>
+      <Arg>   INT8    </Arg>
+    </playerToLandlord>
+    
+    <!--通知客户端加载地主牌-->
+    <loadLandlordPoker>
+      <Arg>   INT8   </Arg>
+      <Arg>   POKERLIST   </Arg>
+    </loadLandlordPoker>
+
+    <!--打不过上家的牌-->
+    <playPokerFailed>
+    </playPokerFailed>
+    
+    <!--显示打出去的牌-->
+    <displayPoker>
+      <Arg>   POKERLIST   </Arg>
+    </displayPoker>
+    
+    <!--不出牌：过牌-->
+    <passPoker>
+    </passPoker>
+
+    <!--游戏结束-->
+    <pokerGameOver>
+      <Arg>   INT32   </Arg>
+    </pokerGameOver>
+    
+    <!--接收邮件-->
+    <receiveMail>
+      <Arg>   MAILDATA    </Arg>
+    </receiveMail>
+    
+    <!--接收好友数据-->
+    <friendListData>
+      <Arg>   FRIENDDATALIST   </Arg>
+    </friendListData>
+    
+    <!--通知谁继续游戏-->
+    <stayInRoom>
+      <Arg>   INT32   </Arg>
+    </stayInRoom>
+    
+	</ClientMethods>
+
+	<BaseMethods>
+    <!--玩家匹配游戏-->
+    <playerMatchGame>
+      <Exposed/>
+    </playerMatchGame>
+    
+    <!--玩家加入房间-->
+    <playerJoinGame>
+      <Arg>   INT64    </Arg>
+      <Exposed/>
+    </playerJoinGame>
+
+    <!--玩家创建房间-->
+    <playerCreateGame>
+      <Arg>   INT64    </Arg>
+      <Exposed/>
+    </playerCreateGame>
+    
+    <!--玩家离开房间-->
+    <playerLeaveRoom>
+      <Exposed/>
+    </playerLeaveRoom>
+    
+    <!--创建玩家Cell实体-->
+    <createPlayerCell>
+      <Arg>   ENTITYCALL    </Arg>
+    </createPlayerCell>
+    
+    <!--设置玩家房间内座位号-->
+    <setRoomIndex>
+      <Arg>     UINT8   </Arg>
+    </setRoomIndex>
+    
+    <!--加载ALL_CLIENTS部分数据-->
+    <loadPlayerData>
+    </loadPlayerData>
+    
+    <!--更新豆豆数量-->
+    <updatePlayerBean>
+      <Arg>   INT32  </Arg>
+    </updatePlayerBean>
+    
+    <!--发送邮件-->
+    <playerSendMail>
+      <Arg>   UINT64    </Arg>
+      <Exposed/>
+    </playerSendMail>
+    
+    <!--接收邮件-->
+    <playerReceiveMail>
+      <Arg>   MAILDATA    </Arg>
+    </playerReceiveMail>
+    
+    <!--获取好友数据-->
+    <getFriendListData>
+      <Exposed/>
+    </getFriendListData>
+    
+    <!--玩家添加好友-->
+    <playerAgreeFriend>
+      <Arg>   UINT64    </Arg>
+      <Arg>   UINT8     </Arg>
+      <Exposed/>
+    </playerAgreeFriend>
+    
+    <!--请求邮件数据-->
+    <reqPlayerMail>
+      <Exposed/>
+    </reqPlayerMail>
+    
+    <!--同步玩家好友-->
+    <playerSynchroFriend>
+      <Arg>   UINT64    </Arg>
+    </playerSynchroFriend>
+    
+	</BaseMethods>
+
+	<CellMethods>
+    <!--初始玩家cell部分数据-->
+    <initPlayerData>
+      <Arg>   ENTITYDATA    </Arg>
+    </initPlayerData>
+
+    <!--玩家是否准备游戏-->
+    <setGameReady>
+      <Arg>   INT8    </Arg>
+      <Exposed/>
+    </setGameReady>
+    
+    <!--初始玩家扑克牌-->
+    <initPlayerPoker>
+      <Arg>   POKERLIST   </Arg>
+    </initPlayerPoker>
+    
+    <!--玩家抢地主-->
+    <playerMakeLandlord>
+      <Arg>   INT8    </Arg>
+      <Arg>   INT8    </Arg>
+      <Exposed/>
+    </playerMakeLandlord>
+    
+    <!--添加三张地主牌-->
+    <addLandlordPoker>
+      <Arg>   INT8  </Arg>
+      <Arg>   POKERLIST   </Arg>
+    </addLandlordPoker>
+
+    <!--更新卡牌-->
+    <updatePlayerPoker>
+      <Arg>   INT32     </Arg>
+      <Arg>   POKERLIST   </Arg>
+    </updatePlayerPoker>
+    
+    <!--更新欢乐豆数量-->
+    <updatePlayerBean>
+      <Arg>   INT32   </Arg>
+    </updatePlayerBean>
+
+    <!--过牌-->
+    <passPlayerPoker>
+    </passPlayerPoker>
+
+    <!--离开房间-->
+    <leaveRoom>
+      <Exposed/>
+    </leaveRoom>
+    
+    <!--留在房间继续游戏-->
+    <stayRoom>
+      <Arg>   INT32   </Arg>
+      <Exposed/>
+    </stayRoom>
+
+	</CellMethods>
+
+</root>

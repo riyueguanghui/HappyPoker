@@ -1,0 +1,384 @@
+  INFO root [0x00002e54] [2019-09-16 20:23:02,055] - 
+  INFO root [0x00002e54] [2019-09-16 20:23:02,056] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002e54] [2019-09-16 20:23:02,057] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002e54] [2019-09-16 20:23:02,057] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00002e54] [2019-09-16 20:23:02,057] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002e54] [2019-09-16 20:23:02,103] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00002e54] [2019-09-16 20:23:02,104] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00002e54] [2019-09-16 20:23:02,110] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00002e54] [2019-09-16 20:23:02,110] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00002e54] [2019-09-16 20:23:04,380] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00002e54] [2019-09-16 20:23:04,386] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52073 )
+  INFO root [0x00002e54] [2019-09-16 20:23:04,387] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52073, SOMAXCONN=128.
+  INFO root [0x00002e54] [2019-09-16 20:23:04,388] - server-configs:
+  INFO root [0x00002e54] [2019-09-16 20:23:04,389] - 	gameUpdateHertz : 10
+  INFO root [0x00002e54] [2019-09-16 20:23:04,389] - 	entryScriptFile : kbemain
+  INFO root [0x00002e54] [2019-09-16 20:23:04,389] - 	internalTcpAddr : 192.168.56.1:52073
+  INFO root [0x00002e54] [2019-09-16 20:23:04,389] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00002e54] [2019-09-16 20:23:04,390] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00002e54] [2019-09-16 20:23:04,390] - 	componentID : 7001
+  WARN root [0x00002e54] [2019-09-16 20:23:04,624] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00002e54] [2019-09-16 20:23:04,730] - Components::findLogger: found logger, addr:192.168.56.1:52072
+  INFO root [0x00002e54] [2019-09-16 20:23:04,730] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00002e54] [2019-09-16 20:23:04,730] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002e54] [2019-09-16 20:23:04,737] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 3784 ----
+  INFO root [0x00002e54] [2019-09-16 20:23:04,737] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00002e54] [2019-09-16 20:23:04,737] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002e54] [2019-09-16 20:23:04,738] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002e54] [2019-09-16 20:23:04,956] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002e54] [2019-09-16 20:23:04,956] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00002e54] [2019-09-16 20:23:05,311] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x00002e54] [2019-09-16 20:23:05,312] - app::initialize(): initialization failed!
+ S_ERR root [0x00002e54] [2019-09-16 20:23:05,334] - AttributeError: module 'Account' has no attribute 'Account'
+  INFO root [0x00002e54] [2019-09-16 20:23:05,348] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002e54] [2019-09-16 20:23:05,348] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002e54] [2019-09-16 20:23:05,649] - ThreadPool::destroy(): waiting for thread(2)[0x1472e8,0x147420,], try=1
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,051] - TPThread::~TPThread(): 0x1472e8
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,051] - TPThread::~TPThread(): 0x147420
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,051] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,052] - Bundle::destroyObjPool(): size 11.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,052] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,053] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,054] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,054] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,055] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,055] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00002e54] [2019-09-16 20:23:06,056] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x00002e54] [2019-09-16 20:23:06,056] - Forwarding logs to logger[192.168.56.1:52072/0/0/0]...
+  INFO root [0x00002e54] [2019-09-16 20:23:12,574] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - 
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00003cdc] [2019-09-16 20:23:26,654] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00003cdc] [2019-09-16 20:23:29,030] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52101 )
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52101, SOMAXCONN=128.
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - server-configs:
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	gameUpdateHertz : 10
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	entryScriptFile : kbemain
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	internalTcpAddr : 192.168.56.1:52101
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - 	componentID : 7001
+  WARN root [0x00003cdc] [2019-09-16 20:23:29,030] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Components::findLogger: found logger, addr:192.168.56.1:52097
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 3288 ----
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00003cdc] [2019-09-16 20:23:29,030] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x00003cdc] [2019-09-16 20:23:29,030] - app::initialize(): initialization failed!
+ S_ERR root [0x00003cdc] [2019-09-16 20:23:29,030] - AttributeError: module 'Account' has no attribute 'Account'
+  INFO root [0x00003cdc] [2019-09-16 20:23:29,030] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:29,030] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003cdc] [2019-09-16 20:23:30,277] - ThreadPool::destroy(): waiting for thread(2)[0x240b850,0x240b4a8,], try=1
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - TPThread::~TPThread(): 0x240b850
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - TPThread::~TPThread(): 0x240b4a8
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - Bundle::destroyObjPool(): size 11.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003cdc] [2019-09-16 20:23:30,277] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x00003cdc] [2019-09-16 20:23:30,277] - Forwarding logs to logger[192.168.56.1:52097/0/0/0]...
+  INFO root [0x00003cdc] [2019-09-16 20:23:37,202] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000012c4] [2019-09-16 20:23:47,875] - 
+  INFO root [0x000012c4] [2019-09-16 20:23:47,885] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000012c4] [2019-09-16 20:23:47,886] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000012c4] [2019-09-16 20:23:47,886] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000012c4] [2019-09-16 20:23:47,886] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000012c4] [2019-09-16 20:23:47,996] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x000012c4] [2019-09-16 20:23:47,997] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x000012c4] [2019-09-16 20:23:48,017] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x000012c4] [2019-09-16 20:23:48,017] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x000012c4] [2019-09-16 20:23:50,276] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x000012c4] [2019-09-16 20:23:50,280] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52134 )
+  INFO root [0x000012c4] [2019-09-16 20:23:50,280] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52134, SOMAXCONN=128.
+  INFO root [0x000012c4] [2019-09-16 20:23:50,281] - server-configs:
+  INFO root [0x000012c4] [2019-09-16 20:23:50,282] - 	gameUpdateHertz : 10
+  INFO root [0x000012c4] [2019-09-16 20:23:50,282] - 	entryScriptFile : kbemain
+  INFO root [0x000012c4] [2019-09-16 20:23:50,282] - 	internalTcpAddr : 192.168.56.1:52134
+  INFO root [0x000012c4] [2019-09-16 20:23:50,282] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x000012c4] [2019-09-16 20:23:50,282] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x000012c4] [2019-09-16 20:23:50,283] - 	componentID : 7001
+  WARN root [0x000012c4] [2019-09-16 20:23:50,574] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x000012c4] [2019-09-16 20:23:50,661] - Components::findLogger: found logger, addr:192.168.56.1:52130
+  INFO root [0x000012c4] [2019-09-16 20:23:50,661] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x000012c4] [2019-09-16 20:23:50,661] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000012c4] [2019-09-16 20:23:50,672] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 15528 ----
+  INFO root [0x000012c4] [2019-09-16 20:23:50,675] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000012c4] [2019-09-16 20:23:50,676] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000012c4] [2019-09-16 20:23:50,676] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000012c4] [2019-09-16 20:23:50,914] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000012c4] [2019-09-16 20:23:50,915] - Script::install(): KBExtra is successfully!
+ ERROR root [0x000012c4] [2019-09-16 20:23:51,102] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x000012c4] [2019-09-16 20:23:51,102] - app::initialize(): initialization failed!
+  INFO root [0x000050f8] [2019-09-16 22:12:58,261] - 
+  INFO root [0x000050f8] [2019-09-16 22:12:58,271] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000050f8] [2019-09-16 22:12:58,272] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000050f8] [2019-09-16 22:12:58,272] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000050f8] [2019-09-16 22:12:58,272] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000050f8] [2019-09-16 22:12:58,322] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x000050f8] [2019-09-16 22:12:58,322] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x000050f8] [2019-09-16 22:12:58,327] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x000050f8] [2019-09-16 22:12:58,327] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x000050f8] [2019-09-16 22:13:00,587] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x000050f8] [2019-09-16 22:13:00,591] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54284 )
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54284, SOMAXCONN=128.
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - server-configs:
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - 	gameUpdateHertz : 10
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - 	entryScriptFile : kbemain
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - 	internalTcpAddr : 192.168.56.1:54284
+  INFO root [0x000050f8] [2019-09-16 22:13:00,592] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x000050f8] [2019-09-16 22:13:00,593] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x000050f8] [2019-09-16 22:13:00,593] - 	componentID : 7001
+  WARN root [0x000050f8] [2019-09-16 22:13:00,820] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x000050f8] [2019-09-16 22:13:01,063] - Components::findLogger: found logger, addr:192.168.56.1:54272
+  INFO root [0x000050f8] [2019-09-16 22:13:01,063] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x000050f8] [2019-09-16 22:13:01,063] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000050f8] [2019-09-16 22:13:01,072] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 21904 ----
+  INFO root [0x000050f8] [2019-09-16 22:13:01,075] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000050f8] [2019-09-16 22:13:01,075] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000050f8] [2019-09-16 22:13:01,076] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000050f8] [2019-09-16 22:13:01,292] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000050f8] [2019-09-16 22:13:01,292] - Script::install(): KBExtra is successfully!
+ ERROR root [0x000050f8] [2019-09-16 22:13:01,445] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x000050f8] [2019-09-16 22:13:01,446] - app::initialize(): initialization failed!
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,360] - 
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,360] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,366] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,366] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,366] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,386] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,386] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,386] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00004dd4] [2019-09-16 22:14:27,386] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00004dd4] [2019-09-16 22:14:29,661] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,671] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54352 )
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,671] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54352, SOMAXCONN=128.
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,671] - server-configs:
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,671] - 	gameUpdateHertz : 10
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,671] - 	entryScriptFile : kbemain
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,676] - 	internalTcpAddr : 192.168.56.1:54352
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,676] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,676] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,677] - 	componentID : 7001
+  WARN root [0x00004dd4] [2019-09-16 22:14:29,889] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,969] - Components::findLogger: found logger, addr:192.168.56.1:54342
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,969] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,969] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,977] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 18252 ----
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,977] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,979] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004dd4] [2019-09-16 22:14:29,979] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00004dd4] [2019-09-16 22:14:30,181] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00004dd4] [2019-09-16 22:14:30,181] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00004dd4] [2019-09-16 22:14:30,316] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x00004dd4] [2019-09-16 22:14:30,316] - app::initialize(): initialization failed!
+  INFO root [0x000026e4] [2019-09-16 22:21:18,150] - 
+  INFO root [0x000026e4] [2019-09-16 22:21:18,158] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000026e4] [2019-09-16 22:21:18,160] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000026e4] [2019-09-16 22:21:18,160] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000026e4] [2019-09-16 22:21:18,160] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000026e4] [2019-09-16 22:21:18,209] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x000026e4] [2019-09-16 22:21:18,210] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x000026e4] [2019-09-16 22:21:18,215] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x000026e4] [2019-09-16 22:21:18,215] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x000026e4] [2019-09-16 22:21:20,499] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54533 )
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54533, SOMAXCONN=128.
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - server-configs:
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	gameUpdateHertz : 10
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	entryScriptFile : kbemain
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	internalTcpAddr : 192.168.56.1:54533
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x000026e4] [2019-09-16 22:21:20,499] - 	componentID : 7001
+  WARN root [0x000026e4] [2019-09-16 22:21:20,718] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x000026e4] [2019-09-16 22:21:20,843] - Components::findLogger: found logger, addr:192.168.56.1:54525
+  INFO root [0x000026e4] [2019-09-16 22:21:20,843] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x000026e4] [2019-09-16 22:21:20,843] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000026e4] [2019-09-16 22:21:20,843] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 4804 ----
+  INFO root [0x000026e4] [2019-09-16 22:21:20,843] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000026e4] [2019-09-16 22:21:20,858] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000026e4] [2019-09-16 22:21:20,858] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000026e4] [2019-09-16 22:21:21,067] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000026e4] [2019-09-16 22:21:21,067] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000026e4] [2019-09-16 22:21:21,249] - loaded entity-script:Hall(2).
+ DEBUG root [0x000026e4] [2019-09-16 22:21:21,249] - loaded entity-script:Room(3).
+ DEBUG root [0x000026e4] [2019-09-16 22:21:21,250] - loaded entity-script:Friend(4).
+ DEBUG root [0x000026e4] [2019-09-16 22:21:21,250] - loaded entity-script:Mail(5).
+  INFO root [0x000026e4] [2019-09-16 22:21:21,251] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000026e4] [2019-09-16 22:21:21,303] - TelnetServer server is running on port 40000
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,032] - 
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,032] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,032] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,032] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,032] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,047] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,047] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,063] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00002ee8] [2019-09-16 22:21:39,063] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00002ee8] [2019-09-16 22:21:41,359] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54563 )
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54563, SOMAXCONN=128.
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - server-configs:
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	gameUpdateHertz : 10
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	entryScriptFile : kbemain
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	internalTcpAddr : 192.168.56.1:54563
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,359] - 	componentID : 7001
+  WARN root [0x00002ee8] [2019-09-16 22:21:41,578] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - Components::findLogger: found logger, addr:192.168.56.1:54550
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 2120 ----
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,718] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,906] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002ee8] [2019-09-16 22:21:41,906] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002ee8] [2019-09-16 22:21:42,078] - loaded entity-script:Hall(2).
+ DEBUG root [0x00002ee8] [2019-09-16 22:21:42,078] - loaded entity-script:Room(3).
+ DEBUG root [0x00002ee8] [2019-09-16 22:21:42,078] - loaded entity-script:Friend(4).
+ DEBUG root [0x00002ee8] [2019-09-16 22:21:42,078] - loaded entity-script:Mail(5).
+  INFO root [0x00002ee8] [2019-09-16 22:21:42,078] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00002ee8] [2019-09-16 22:21:42,078] - TelnetServer server is running on port 40000
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,110] - 
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,110] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,110] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,110] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,110] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,141] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,141] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,157] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00004dfc] [2019-09-16 22:21:53,157] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00004dfc] [2019-09-16 22:21:55,453] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54586 )
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54586, SOMAXCONN=128.
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - server-configs:
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	gameUpdateHertz : 10
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	entryScriptFile : kbemain
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	internalTcpAddr : 192.168.56.1:54586
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,453] - 	componentID : 7001
+  WARN root [0x00004dfc] [2019-09-16 22:21:55,672] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - Components::findLogger: found logger, addr:192.168.56.1:54573
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 14852 ----
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,688] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,891] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00004dfc] [2019-09-16 22:21:55,891] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00004dfc] [2019-09-16 22:21:56,078] - loaded entity-script:Hall(2).
+ DEBUG root [0x00004dfc] [2019-09-16 22:21:56,094] - loaded entity-script:Room(3).
+ DEBUG root [0x00004dfc] [2019-09-16 22:21:56,094] - loaded entity-script:Friend(4).
+ DEBUG root [0x00004dfc] [2019-09-16 22:21:56,094] - loaded entity-script:Mail(5).
+  INFO root [0x00004dfc] [2019-09-16 22:21:56,094] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00004dfc] [2019-09-16 22:21:56,094] - TelnetServer server is running on port 40000
+  INFO root [0x00003e04] [2019-09-16 22:24:51,422] - 
+  INFO root [0x00003e04] [2019-09-16 22:24:51,422] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003e04] [2019-09-16 22:24:51,422] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00003e04] [2019-09-16 22:24:51,422] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00003e04] [2019-09-16 22:24:51,422] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00003e04] [2019-09-16 22:24:51,469] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00003e04] [2019-09-16 22:24:51,469] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00003e04] [2019-09-16 22:24:51,469] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00003e04] [2019-09-16 22:24:51,469] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00003e04] [2019-09-16 22:24:53,781] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54627 )
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54627, SOMAXCONN=128.
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - server-configs:
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	gameUpdateHertz : 10
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	entryScriptFile : kbemain
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	internalTcpAddr : 192.168.56.1:54627
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00003e04] [2019-09-16 22:24:53,781] - 	componentID : 7001
+  WARN root [0x00003e04] [2019-09-16 22:24:54,000] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - Components::findLogger: found logger, addr:192.168.56.1:54618
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 20968 ----
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003e04] [2019-09-16 22:24:54,047] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003e04] [2019-09-16 22:24:54,250] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003e04] [2019-09-16 22:24:54,250] - Script::install(): KBExtra is successfully!
+ ERROR root [0x00003e04] [2019-09-16 22:24:54,390] - EntityDef::initialize: Could not find EntityClass[Account]
+ ERROR root [0x00003e04] [2019-09-16 22:24:54,390] - app::initialize(): initialization failed!
+  INFO root [0x00000604] [2019-09-16 22:36:44,049] - 
+  INFO root [0x00000604] [2019-09-16 22:36:44,065] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000604] [2019-09-16 22:36:44,065] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00000604] [2019-09-16 22:36:44,065] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00000604] [2019-09-16 22:36:44,065] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00000604] [2019-09-16 22:36:44,080] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00000604] [2019-09-16 22:36:44,080] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00000604] [2019-09-16 22:36:44,080] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00000604] [2019-09-16 22:36:44,080] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  WARN root [0x00000604] [2019-09-16 22:36:46,351] - NetworkInterface::initialize(INTERNAL-TCP): Couldn't parse interface spec 'ip_internal' so using all interfaces
+  INFO root [0x00000604] [2019-09-16 22:36:46,355] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:54822 )
+  INFO root [0x00000604] [2019-09-16 22:36:46,355] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:54822, SOMAXCONN=128.
+  INFO root [0x00000604] [2019-09-16 22:36:46,355] - server-configs:
+  INFO root [0x00000604] [2019-09-16 22:36:46,355] - 	gameUpdateHertz : 10
+  INFO root [0x00000604] [2019-09-16 22:36:46,355] - 	entryScriptFile : kbemain
+  INFO root [0x00000604] [2019-09-16 22:36:46,356] - 	internalTcpAddr : 192.168.56.1:54822
+  INFO root [0x00000604] [2019-09-16 22:36:46,356] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00000604] [2019-09-16 22:36:46,356] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00000604] [2019-09-16 22:36:46,356] - 	componentID : 7001
+  WARN root [0x00000604] [2019-09-16 22:36:46,569] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00000604] [2019-09-16 22:36:46,597] - Components::findLogger: found logger, addr:192.168.56.1:54810
+  INFO root [0x00000604] [2019-09-16 22:36:46,598] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00000604] [2019-09-16 22:36:46,598] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000604] [2019-09-16 22:36:46,605] - ---- baseapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X86. Built: 09:56:40 May  8 2019. AppID: 7001. UID: 2082. PID: 22012 ----
+  INFO root [0x00000604] [2019-09-16 22:36:46,605] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00000604] [2019-09-16 22:36:46,605] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000604] [2019-09-16 22:36:46,606] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000604] [2019-09-16 22:36:46,801] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00000604] [2019-09-16 22:36:46,801] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000604] [2019-09-16 22:36:46,983] - loaded entity-script:Account(1).
+ DEBUG root [0x00000604] [2019-09-16 22:36:46,984] - loaded entity-script:Hall(2).
+ DEBUG root [0x00000604] [2019-09-16 22:36:46,984] - loaded entity-script:Room(3).
+ DEBUG root [0x00000604] [2019-09-16 22:36:46,985] - loaded entity-script:Friend(4).
+ DEBUG root [0x00000604] [2019-09-16 22:36:46,985] - loaded entity-script:Mail(5).
+  INFO root [0x00000604] [2019-09-16 22:36:46,986] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000604] [2019-09-16 22:36:46,986] - TelnetServer server is running on port 40000
+  INFO root [0x00000604] [2019-09-16 22:36:47,395] - ---- baseapp is running ----
+ DEBUG root [0x00000604] [2019-09-16 22:36:47,395] - Components::process(): Request for the process of identity...
+  WARN root [0x00000604] [2019-09-16 22:36:53,675] - Forwarding logs to logger[192.168.56.1:54810/0/0/0]...

@@ -1,0 +1,1413 @@
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 466] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 730] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 730] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 730] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 951] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:58849 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 951] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:58849, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 951] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 952] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 984] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 984] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 984] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 984] - 	internalTcpAddr : 192.168.56.1:58849
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:55 984] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:55 985] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 298] - Components::findLogger: found logger, addr:192.168.56.1:58837
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 298] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 299] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 327] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 17612 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 328] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 371] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 430] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 999] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:56 999] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:57 447] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:57 448] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:57 449] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:07:57 450] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:57 453] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:07:57 454] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:07:57 455] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:57 539] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:07:59 487] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:07:59 488] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:08:05 793] - EntityApp::checkTickPeriod: tick took 6306% (6.31 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:06 940] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:07 008] - Components::findComponents: found dbmgr, addr:192.168.56.1:58838
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:07 008] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:07 009] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:07 010] - Components::findComponents: found dbmgr, addr:192.168.56.1:58838
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:08:08 025] - EntityApp::checkTickPeriod: tick took 1133% (1.13 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:09 039] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:09 072] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58842
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:09 072] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:09 083] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58842
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:08:10 099] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:11 140] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:11 165] - Components::findComponents: found baseappmgr, addr:192.168.56.1:58839
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:11 165] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:11 166] - Components::findComponents: found baseappmgr, addr:192.168.56.1:58839
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:08:12 170] - EntityApp::checkTickPeriod: tick took 1080% (1.08 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 241] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 265] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 266] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58846, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58877/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 266] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 266] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 270] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58846, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58877/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:13 270] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:08:16 282] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=19C7D2010B20B7A3F4D7BD0AFDA1FC0E.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:08:16 282] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:08:16 889] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20114, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:08:18 289] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:08:18 289] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.01 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:08:18 290] - EntityApp::checkTickPeriod: tick took 2101% (2.10 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:08:18 364] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:08:19 326] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:08:52 124] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:08:52 148] - EntityApp::createEntity: new Room 3
+    INFO    cellapp01 3960 8001  [2019-07-02 09:08:52 158] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:08:52 197] - player go into the roomId is 6708866614320103424
+    INFO    cellapp01 3960 8001  [2019-07-02 09:08:52 198] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+    INFO    cellapp01 3960 8001  [2019-07-02 09:08:52 214] - EntityApp::createEntity: new Account 2
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 285] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 286] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 287] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 287] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 350] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:58919 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 350] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:58919, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 350] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 350] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 351] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 351] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 351] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 351] - 	internalTcpAddr : 192.168.56.1:58919
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 351] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:21 353] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:21 856] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20582, errorno=10048
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 861] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 21828 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 862] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 862] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:21 862] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:22 147] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:22 147] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:22 275] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:22 276] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:22 276] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:10:22 276] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:22 279] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:22 279] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:10:22 280] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:22 280] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:22 722] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:10:22 722] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:29 009] - EntityApp::checkTickPeriod: tick took 6287% (6.29 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 026] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 141] - Components::findComponents: found logger, addr:192.168.56.1:58923
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 141] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 141] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 143] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 145] - Components::findComponents: found dbmgr, addr:192.168.56.1:58918
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 146] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 146] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 149] - Components::findComponents: found logger, addr:192.168.56.1:58923
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:30 153] - Components::findComponents: found dbmgr, addr:192.168.56.1:58918
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:31 159] - EntityApp::checkTickPeriod: tick took 1233% (1.23 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:32 235] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:32 301] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58920
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:32 301] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:32 302] - Components::findComponents: found cellappmgr, addr:192.168.56.1:58920
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:33 306] - EntityApp::checkTickPeriod: tick took 1170% (1.17 seconds)!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:33 307] - TCPPacketReceiver::processPendingEvents(192.168.56.1:58947): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:34 325] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:34 390] - Components::findComponents: found baseappmgr, addr:192.168.56.1:58922
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:34 390] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:34 391] - Components::findComponents: found baseappmgr, addr:192.168.56.1:58922
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:10:35 405] - EntityApp::checkTickPeriod: tick took 1183% (1.18 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 625] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 629] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 630] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58924, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58964/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 630] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 630] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:58924, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:58964/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 630] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:36 735] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:10:39 656] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=19C7D2010B20B7A3F4D7BD0AFDA1FC0E.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:10:39 656] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:10:40 197] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20564, errorno=10048
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:10:40 815] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20403, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:10:42 215] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:10:42 216] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.56 seconds
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:10:42 216] - onGlobalData: Hall
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:10:42 217] - EntityApp::checkTickPeriod: tick took 2594% (2.59 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:10:42 223] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:11:49 509] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:11:49 509] - EntityApp::createEntity: new Room 3
+    INFO    cellapp01 3960 8001  [2019-07-02 09:11:49 510] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:11:49 516] - player go into the roomId is 6708867374529314816
+    INFO    cellapp01 3960 8001  [2019-07-02 09:11:49 522] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+    INFO    cellapp01 3960 8001  [2019-07-02 09:11:49 522] - EntityApp::createEntity: new Account 2
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:12:10 946] - player go into the roomId is 6708867374529314816
+    INFO    cellapp01 3960 8001  [2019-07-02 09:12:10 950] - EntityApp::createEntity: new Account 4
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:12:30 408] - player go into the roomId is 6708867374529314816
+    INFO    cellapp01 3960 8001  [2019-07-02 09:12:30 411] - EntityApp::createEntity: new Account 5
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:12:50 912] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 485] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 490] - 34
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 490] - 33
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 490] - 32
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 490] - 13
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:07 490] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:11 943] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:11 944] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:25 160] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:25 162] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 799] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 802] - 56
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 803] - 55
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 803] - 48
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 804] - 47
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 804] - 43
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 804] - 38
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:38 806] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:42 507] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:42 509] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:44 623] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:44 624] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:56 230] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:56 235] - 21
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:13:56 235] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:02 526] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:02 529] - 49
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:02 531] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:08 094] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:08 097] - 52
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:08 099] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:11 592] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:11 594] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:11 595] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:15 208] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:15 210] - 76
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:15 211] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:17 239] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:17 240] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:19 156] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:19 157] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:23 510] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:23 513] - 15
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:23 513] - 12
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:23 513] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:27 008] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:27 009] - 23
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:27 009] - 22
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:27 010] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:30 649] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:30 652] - 54
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:30 652] - 53
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:30 652] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:33 594] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:33 597] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:38 108] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:38 109] - 59
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:38 110] - 58
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:38 112] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:41 885] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:41 886] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:14:51 040] - data is error
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:06 323] - data is error
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:17 806] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:17 807] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:23 823] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:23 825] - 29
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:23 825] - 28
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:23 826] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:27 441] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:27 443] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:30 158] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:30 159] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:38 677] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:38 679] - 37
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:38 679] - 36
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:38 681] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:41 267] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:41 268] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:43 507] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:43 508] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:46 157] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:46 158] - 14
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:46 160] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:49 461] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:49 466] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:49 466] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:51 658] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:51 659] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:53 858] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:53 860] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:57 884] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:57 889] - 18
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:57 889] - 16
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:15:57 890] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:00 090] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:00 090] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:02 323] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:02 324] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:04 838] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:04 842] - 40
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:04 844] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:06 941] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:06 942] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:09 056] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:09 057] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:11 365] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:11 366] - 71
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:11 367] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:13 541] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:13 542] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:16 023] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:16 025] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:18 895] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:16:18 902] - 80
+   S_ERR    cellapp01 3960 8001  [2019-07-02 09:16:18 991] - Traceback (most recent call last):
+  File "D:/kbengine/HappyPoker_assets/scripts/cell\Account.py", line 45, in updatePlayerPoker
+    KBEngine.globalData["Room_%i" %self.spaceID].playGameOver()
+   S_ERR    cellapp01 3960 8001  [2019-07-02 09:16:18 995] -   File "D:/kbengine/HappyPoker_assets/scripts/cell\Room.py", line 1059, in playGameOver
+    self.playerEntityList[0].base.updatePlayerBean(2*beans)
+   S_ERR    cellapp01 3960 8001  [2019-07-02 09:16:18 996] - AttributeError: 'EntityCall' object has no attribute 'base'
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:16:18 997] - d:\kbengine\kbe\src\server\cellapp\entity.cpp:986: Profile scriptCall took 0.10 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:16:18 998] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.10 seconds
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:16:53 215] - Account::~Account(): 2
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:16:58 515] - Account::~Account(): 4
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:17:01 015] - Account::~Account(): 5
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:17:13 153] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 589] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 590] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 590] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 591] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 637] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59067 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 637] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59067, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 637] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 638] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 638] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 638] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 638] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 638] - 	internalTcpAddr : 192.168.56.1:59067
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:43 639] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:43 651] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 158] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 17980 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 159] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 159] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 160] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 445] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 446] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:45 711] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:45 712] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:45 713] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:27:45 713] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:45 715] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:45 730] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:27:45 753] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:45 753] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:46 269] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:27:46 271] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:52 437] - EntityApp::checkTickPeriod: tick took 6167% (6.17 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 470] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 558] - Components::findComponents: found logger, addr:192.168.56.1:59074
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 558] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 558] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 560] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 565] - Components::findComponents: found logger, addr:192.168.56.1:59074
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 568] - Components::findComponents: found dbmgr, addr:192.168.56.1:59068
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 569] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 569] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:53 670] - Components::findComponents: found dbmgr, addr:192.168.56.1:59068
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:54 671] - EntityApp::checkTickPeriod: tick took 1302% (1.30 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:55 691] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:55 731] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59069
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:55 731] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:55 731] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59069
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:56 733] - EntityApp::checkTickPeriod: tick took 1063% (1.06 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:57 768] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:57 871] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59070
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:57 871] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:57 881] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59070
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:58 881] - EntityApp::checkTickPeriod: tick took 1212% (1.21 seconds)!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:27:58 883] - TCPPacketReceiver::processPendingEvents(192.168.56.1:59096): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:27:59 991] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:00 069] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:00 090] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:00 169] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:00 316] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59073, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59068/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:00 316] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:28:03 320] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:03 320] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:28:03 651] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20938, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:28:04 875] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:28:04 875] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.55 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:28:04 875] - EntityApp::checkTickPeriod: tick took 1606% (1.61 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:28:04 891] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:28:05 456] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:28:17 320] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:17 321] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:17 321] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:28:17 328] - player go into the roomId is 6708871617957003264
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:17 335] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:17 372] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:28:36 715] - player go into the roomId is 6708871617957003264
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:36 718] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:28:56 718] - player go into the roomId is 6708871617957003264
+    INFO    cellapp01 3960 8001  [2019-07-02 09:28:56 721] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:12 961] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 171] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 175] - 32
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 175] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 175] - 25
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 175] - 21
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 175] - 19
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:43 177] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 160] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 164] - 59
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 164] - 55
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 164] - 50
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 164] - 46
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 165] - 42
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:29:58 166] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:01 259] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:01 261] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:03 988] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:03 991] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:08 743] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:08 744] - 17
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:08 745] - 16
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:08 746] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:18 494] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:18 497] - 26
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:18 498] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:18 499] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:24 240] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:24 242] - 54
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:24 243] - 53
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:24 244] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:29 575] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:29 576] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:31 826] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:31 828] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 090] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 43
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 41
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 39
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 38
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 34
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 093] - 33
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:36 095] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:38 745] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:38 745] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:41 660] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:41 661] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:46 746] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:46 752] - 23
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:46 753] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:50 343] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:50 345] - 28
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:50 346] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:57 975] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:57 976] - 44
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:30:57 977] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:01 688] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:01 693] - 76
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:01 694] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:06 227] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:06 228] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:08 992] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:08 992] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:12 409] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:12 413] - 58
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:12 413] - 57
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:12 414] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:15 392] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:15 393] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:18 543] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:18 544] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:21 721] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:21 723] - 70
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:21 723] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:21 724] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:28 058] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:28 059] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:30 275] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:30 276] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:33 106] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:31:33 109] - 45
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 922] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 923] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 923] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 924] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 974] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59152 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 974] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59152, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 974] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	internalTcpAddr : 192.168.56.1:59152
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:15 975] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:15 977] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 308] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20365, errorno=10048
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 313] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 21272 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 315] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 315] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 316] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 586] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 586] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 769] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 770] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 770] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:33:16 771] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 774] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:16 775] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:33:16 776] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:16 776] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:17 435] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:33:17 435] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:23 642] - EntityApp::checkTickPeriod: tick took 6207% (6.21 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 736] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 757] - Components::findComponents: found logger, addr:192.168.56.1:59153
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 757] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 757] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 759] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 863] - Components::findComponents: found dbmgr, addr:192.168.56.1:59146
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 863] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 864] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:24 864] - Components::findComponents: found dbmgr, addr:192.168.56.1:59146
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:25 865] - EntityApp::checkTickPeriod: tick took 1229% (1.23 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:26 935] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:27 027] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59149
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:27 027] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:27 028] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59149
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:28 028] - EntityApp::checkTickPeriod: tick took 1193% (1.19 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:29 035] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:29 068] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59150
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:29 068] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:29 069] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59150
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:33:30 070] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 235] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 245] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 335] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 345] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 693] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59148, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59146/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:31 693] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:33:34 712] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:33:34 712] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:33:35 046] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20774, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:33:36 268] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:33:36 268] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:33:36 269] - EntityApp::checkTickPeriod: tick took 1634% (1.63 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:33:36 335] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:33:36 846] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:35:35 744] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:35:35 744] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 09:35:35 745] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:35:35 750] - player go into the roomId is 6708873499152678912
+    INFO    cellapp01 3960 8001  [2019-07-02 09:35:35 757] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 09:35:35 833] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:35:53 142] - player go into the roomId is 6708873499152678912
+    INFO    cellapp01 3960 8001  [2019-07-02 09:35:53 144] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:12 643] - player go into the roomId is 6708873499152678912
+    INFO    cellapp01 3960 8001  [2019-07-02 09:36:12 645] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:32 262] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 290] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 294] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 294] - 29
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 294] - 27
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 295] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 295] - 23
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 295] - 22
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:43 297] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:45 989] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:45 991] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:49 771] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:36:49 773] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:19 456] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:19 459] - 13
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:19 460] - 12
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:19 462] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:21 687] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:21 689] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:23 800] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:23 801] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:27 605] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:27 606] - 38
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:27 608] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:29 504] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:29 505] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:31 249] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:31 255] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:34 385] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:34 387] - 43
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:34 389] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:36 204] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:36 205] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:38 916] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:38 918] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:42 420] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:42 424] - 48
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:42 425] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:44 837] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:44 837] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:46 577] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:46 580] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:50 105] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:50 108] - 53
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:50 109] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:52 220] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:52 222] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:54 028] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:54 033] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 441] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 442] - 35
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 442] - 34
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 442] - 33
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 442] - 32
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:37:59 444] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:01 904] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:01 905] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:03 520] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:03 521] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:06 335] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:06 337] - 58
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:06 337] - 56
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:06 338] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:08 638] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:08 639] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:10 526] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:10 527] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:13 637] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:13 640] - 71
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:13 642] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:15 754] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:15 755] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:18 277] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:18 281] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:21 636] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:38:21 637] - 80
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:38:28 932] - Account::~Account(): 2004
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:38:36 032] - Account::~Account(): 2002
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:38:40 132] - Account::~Account(): 2005
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:38:53 922] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:14 990] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:14 991] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:14 992] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:14 992] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 040] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59234 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 042] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59234, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 042] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 042] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 043] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 043] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 043] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 043] - 	internalTcpAddr : 192.168.56.1:59234
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 043] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 051] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 445] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20095, errorno=10048
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 449] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 19448 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 450] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 450] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 450] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 658] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 658] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 818] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 819] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 819] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:45:15 820] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 822] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:15 822] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:45:15 823] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:15 823] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:16 392] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:45:16 393] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:22 591] - EntityApp::checkTickPeriod: tick took 6198% (6.20 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 694] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 800] - Components::findComponents: found logger, addr:192.168.56.1:59240
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 801] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 801] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 803] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 906] - Components::findComponents: found dbmgr, addr:192.168.56.1:59236
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 907] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 907] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:23 907] - Components::findComponents: found dbmgr, addr:192.168.56.1:59236
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:24 908] - EntityApp::checkTickPeriod: tick took 1315% (1.32 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:25 992] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:26 069] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59237
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:26 069] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:26 078] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59237
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:27 080] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:28 093] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:28 118] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59232
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:28 118] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:28 119] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59232
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:45:29 119] - EntityApp::checkTickPeriod: tick took 1127% (1.13 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:30 292] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:30 298] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:30 392] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:30 397] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:31 139] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59233, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59236/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:31 139] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:45:34 145] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:45:34 145] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:45:35 085] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20849, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:45:35 701] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:45:35 701] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:45:35 701] - EntityApp::checkTickPeriod: tick took 1609% (1.61 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:45:35 793] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:45:35 924] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:46:46 193] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:46:46 193] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 09:46:46 194] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:46:46 199] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:46:46 205] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 09:46:46 291] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:04 598] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:47:04 603] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:25 099] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:47:25 102] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:37 616] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 248] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 252] - 31
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 29
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 28
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 23
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 20
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 18
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - 16
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:54 253] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:57 131] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:57 132] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:59 548] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:47:59 548] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:02 347] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:02 351] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:02 351] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:04 614] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:04 615] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:06 715] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:06 716] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:10 180] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:10 186] - 34
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:10 186] - 33
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:10 187] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:12 565] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:12 565] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:15 049] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:15 051] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:17 563] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:17 568] - 42
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:17 569] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:20 348] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:20 351] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:22 815] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:22 817] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:26 133] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:26 138] - 45
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:26 138] - 44
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:26 140] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:28 033] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:28 034] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:30 830] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:30 831] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 203] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 206] - 71
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 206] - 69
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 207] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 207] - 54
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:35 208] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:37 715] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:37 717] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:40 431] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:40 433] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:44 234] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:44 238] - 80
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:48:44 238] - 76
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:54:38 288] - Account::~Account(): 2004
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:54:43 386] - Account::~Account(): 2005
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:54:47 287] - Account::~Account(): 2002
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:54:58 280] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:55:02 580] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:55:02 583] - EntityApp::createEntity: new Account 2002
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:55:06 080] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:55:06 083] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:55:09 081] - player go into the roomId is 6708876381075734528
+    INFO    cellapp01 3960 8001  [2019-07-02 09:55:09 083] - EntityApp::createEntity: new Account 2005
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 123] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 123] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 124] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 124] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 145] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59310 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59310, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 146] - 	internalTcpAddr : 192.168.56.1:59310
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:53 147] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:53 147] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:54 656] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 10596 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:54 656] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:54 657] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:54 657] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:55 012] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:55 012] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:55 140] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:55 140] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:55 141] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:55:55 141] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:55 143] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:55:55 144] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:55:55 144] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:55 144] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:55:55 595] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 09:55:55 597] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:56:01 833] - EntityApp::checkTickPeriod: tick took 6238% (6.24 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 895] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 919] - Components::findComponents: found logger, addr:192.168.56.1:59309
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 919] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 919] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 921] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 927] - Components::findComponents: found dbmgr, addr:192.168.56.1:59303
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 927] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:02 928] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:03 030] - Components::findComponents: found dbmgr, addr:192.168.56.1:59303
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:56:04 031] - EntityApp::checkTickPeriod: tick took 1235% (1.24 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:05 095] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:05 196] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59306
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:05 196] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:05 197] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59306
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:56:06 198] - EntityApp::checkTickPeriod: tick took 1203% (1.20 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:07 228] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:07 325] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59305
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:07 325] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:07 326] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59305
+ WARNING    cellapp-1 3960 8001  [2019-07-02 09:56:08 327] - EntityApp::checkTickPeriod: tick took 1132% (1.13 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 427] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 495] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 526] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 595] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 804] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59307, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59303/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:09 804] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 09:56:12 815] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 09:56:12 815] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:56:13 150] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20391, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:56:14 370] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:56:14 371] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 09:56:14 371] - EntityApp::checkTickPeriod: tick took 1576% (1.58 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 09:56:14 395] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 09:56:14 928] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:02:25 397] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:02:25 397] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 10:02:25 397] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:02:25 401] - player go into the roomId is 6708880414050025472
+    INFO    cellapp01 3960 8001  [2019-07-02 10:02:25 403] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 10:02:25 491] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:02:44 799] - player go into the roomId is 6708880414050025472
+    INFO    cellapp01 3960 8001  [2019-07-02 10:02:44 802] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:03 296] - player go into the roomId is 6708880414050025472
+    INFO    cellapp01 3960 8001  [2019-07-02 10:03:03 296] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:18 902] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 316] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 317] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 317] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 317] - 21
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 317] - 16
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 317] - 15
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:27 318] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:29 668] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:29 668] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:32 035] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:32 035] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:37 002] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:37 003] - 17
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:37 004] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:39 552] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:39 552] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:41 704] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:41 705] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:44 701] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:44 702] - 31
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:44 703] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:46 868] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:46 868] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:49 135] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:49 135] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:58 284] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:58 288] - 39
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:03:58 290] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:01 385] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:01 386] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:03 685] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:03 685] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 549] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 550] - 47
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 551] - 46
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 551] - 44
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 551] - 42
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 551] - 41
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:08 553] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:10 752] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:10 753] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:13 568] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:13 568] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:16 640] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:16 641] - 48
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:16 641] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:18 752] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:18 753] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:20 685] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:20 685] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 378] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - 70
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - 69
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - 53
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - 52
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:24 379] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:26 668] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:26 668] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:28 891] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:28 891] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:44 945] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:04:44 945] - 57
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 168] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 168] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 169] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 169] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 233] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59495 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59495, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 234] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 235] - 	internalTcpAddr : 192.168.56.1:59495
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:16 235] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:16 239] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 745] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 8668 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 745] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 746] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 746] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 947] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:17 947] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:18 079] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:18 099] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:18 135] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:18:18 146] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:18 149] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:18 154] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:18:18 157] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:18 158] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:18 711] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:18:18 719] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:24 876] - EntityApp::checkTickPeriod: tick took 6164% (6.16 seconds)!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:24 884] - TCPPacketReceiver::processPendingEvents(192.168.56.1:59507): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:25 908] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 007] - Components::findComponents: found logger, addr:192.168.56.1:59491
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 007] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 007] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 009] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 013] - Components::findComponents: found dbmgr, addr:192.168.56.1:59489
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 013] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 013] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:26 115] - Components::findComponents: found dbmgr, addr:192.168.56.1:59489
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:27 117] - EntityApp::checkTickPeriod: tick took 1305% (1.30 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:28 207] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:28 272] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59492
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:28 272] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:28 273] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59492
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:29 274] - EntityApp::checkTickPeriod: tick took 1161% (1.16 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:30 308] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:30 399] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59494
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:30 399] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:30 400] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59494
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:18:31 400] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 411] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 508] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 511] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 608] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 683] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59496, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59489/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:32 683] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:18:35 695] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:18:35 695] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:18:36 034] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20950, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:18:37 259] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:18:37 259] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:18:37 259] - EntityApp::checkTickPeriod: tick took 1648% (1.65 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:18:37 308] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:18:37 799] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:18:52 497] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:18:52 498] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 10:18:52 498] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:18:52 507] - player go into the roomId is 6708884653182746624
+    INFO    cellapp01 3960 8001  [2019-07-02 10:18:52 510] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 10:18:52 512] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:13 326] - player go into the roomId is 6708884653182746624
+    INFO    cellapp01 3960 8001  [2019-07-02 10:19:13 327] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:30 828] - player go into the roomId is 6708884653182746624
+    INFO    cellapp01 3960 8001  [2019-07-02 10:19:30 829] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:47 694] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:59 142] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:59 143] - 15
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:59 143] - 14
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:19:59 143] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:01 587] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:01 587] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:03 538] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:03 539] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 769] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 770] - 35
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 770] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 770] - 25
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 770] - 20
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 770] - 18
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:09 771] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:11 956] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:11 956] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:13 858] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:13 858] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:18 530] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:18 531] - 27
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:18 531] - 26
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:18 531] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:20 655] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:20 655] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:22 658] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:22 659] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:25 476] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:25 477] - 42
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:25 477] - 41
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:25 477] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:27 476] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:27 476] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:29 541] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:29 542] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:32 137] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:32 138] - 46
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:32 138] - 45
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:32 139] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:34 288] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:34 288] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:36 471] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:36 472] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:39 436] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:39 437] - 59
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:39 437] - 57
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:39 437] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:41 571] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:41 571] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:43 727] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:43 728] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:46 238] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:46 240] - 70
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:46 240] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:46 241] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:48 054] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:48 054] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:50 021] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:50 021] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:52 528] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:52 529] - 50
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:52 529] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:54 554] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:54 554] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:56 471] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:56 472] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:58 520] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:58 520] - 54
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:20:58 521] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:00 587] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:00 588] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:02 589] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:02 589] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:05 322] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:21:05 323] - 76
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 459] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 461] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 461] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 461] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 512] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59578 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 513] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59578, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 513] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 513] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 514] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 514] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 514] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 514] - 	internalTcpAddr : 192.168.56.1:59578
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:38 514] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:38 527] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 043] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 11604 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 052] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 057] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 058] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 694] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:40 694] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:41 418] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:41 419] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:41 420] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:27:41 420] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:41 423] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:41 429] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:27:41 433] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:41 436] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:42 468] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:27:42 469] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:48 967] - EntityApp::checkTickPeriod: tick took 6499% (6.50 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 066] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 102] - Components::findComponents: found logger, addr:192.168.56.1:59575
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 103] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 103] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 109] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 217] - Components::findComponents: found dbmgr, addr:192.168.56.1:59576
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 218] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 218] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:50 220] - Components::findComponents: found dbmgr, addr:192.168.56.1:59576
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:51 221] - EntityApp::checkTickPeriod: tick took 1254% (1.25 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:52 264] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:52 309] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59577
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:52 310] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:52 311] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59577
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:53 313] - EntityApp::checkTickPeriod: tick took 1145% (1.14 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:54 364] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:54 439] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59573
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:54 439] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:54 440] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59573
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:27:55 440] - EntityApp::checkTickPeriod: tick took 1173% (1.17 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 564] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 568] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 663] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 667] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 753] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.56.1, intport:59579, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59576/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:56 753] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:27:59 756] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:27:59 756] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:28:00 097] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20185, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:01 323] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:28:01 324] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.57 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:28:01 324] - EntityApp::checkTickPeriod: tick took 1656% (1.66 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:28:01 364] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:01 816] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:28:09 977] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:09 977] - EntityApp::createEntity: new Room 2003
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:09 977] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:09 980] - player go into the roomId is 6708887045479530496
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:09 981] - EntityApp::createEntity: new Account 2002
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:10 068] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:26 281] - player go into the roomId is 6708887045479530496
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:26 281] - EntityApp::createEntity: new Account 2004
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:43 678] - player go into the roomId is 6708887045479530496
+    INFO    cellapp01 3960 8001  [2019-07-02 10:28:43 679] - EntityApp::createEntity: new Account 2005
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:28:59 540] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 263] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 263] - 23
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 263] - 15
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 263] - 14
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 263] - 12
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:09 264] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:11 390] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:11 390] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:13 555] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:13 556] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:16 221] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:16 221] - 19
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:16 221] - 18
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:16 222] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:18 138] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:18 138] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:20 377] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:20 378] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:23 325] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:23 326] - 25
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:23 326] - 24
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:23 326] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:25 488] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:25 488] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:27 490] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:27 491] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:30 620] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:30 621] - 31
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:30 621] - 30
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:30 621] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:32 941] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:32 942] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:34 807] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:34 808] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:37 688] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:37 688] - 33
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:37 689] - 32
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:37 689] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:39 921] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:39 922] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:41 855] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:41 855] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:44 451] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:44 453] - 39
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:44 453] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:46 539] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:46 540] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:48 421] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:48 421] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:51 069] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:51 070] - 43
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:51 070] - 40
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:51 070] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:53 238] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:53 239] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:55 372] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:55 372] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:57 791] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:57 792] - 44
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:57 793] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:59 642] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:29:59 642] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:01 622] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:01 622] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:03 911] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:03 912] - 55
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:03 912] - 52
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:03 912] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:06 238] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:06 238] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:08 188] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:08 188] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:10 470] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:10 471] - 56
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:10 471] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:12 444] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:12 445] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:14 388] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:14 389] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:23 007] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:30:23 008] - 71
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:31:04 467] - Account::~Account(): 2005
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:17 977] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:17 978] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:17 978] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:17 978] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59636 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59636, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 000] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 001] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 001] - 	internalTcpAddr : 192.168.56.1:59636
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:18 001] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:18 003] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 511] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 7040 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 512] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 512] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 513] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 996] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:19 996] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:20 393] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:20 394] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:20 394] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:31:20 395] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:20 396] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:20 397] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:31:20 397] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:20 398] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:20 897] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:31:20 897] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:27 087] - EntityApp::checkTickPeriod: tick took 6189% (6.19 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 097] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 114] - Components::findComponents: found logger, addr:192.168.56.1:59633
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 114] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 114] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 116] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 220] - Components::findComponents: found dbmgr, addr:192.168.56.1:59637
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 220] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 220] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:28 230] - Components::findComponents: found dbmgr, addr:192.168.56.1:59637
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:29 231] - EntityApp::checkTickPeriod: tick took 1233% (1.23 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:30 281] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:30 377] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59635
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:30 377] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:30 379] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59635
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:31 380] - EntityApp::checkTickPeriod: tick took 1183% (1.18 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:32 382] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:32 398] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59631
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:32 398] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:32 398] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59631
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:31:33 399] - EntityApp::checkTickPeriod: tick took 1101% (1.10 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 581] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 584] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 585] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59638, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59664/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 585] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 585] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59638, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59664/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 585] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:34 596] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:31:37 587] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:31:37 587] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:31:37 928] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20627, errorno=10048
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:31:38 279] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20800, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:31:39 505] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:31:39 505] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.92 seconds
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:31:39 506] - onGlobalData: Hall
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:31:39 506] - EntityApp::checkTickPeriod: tick took 2009% (2.01 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:31:39 581] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:32:24 576] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:32:24 576] - EntityApp::createEntity: new Room 3
+    INFO    cellapp01 3960 8001  [2019-07-02 10:32:24 576] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:32:24 579] - player go into the roomId is 6708888140696190976
+    INFO    cellapp01 3960 8001  [2019-07-02 10:32:24 583] - EntityApp::createEntity: new Account 2
+    INFO    cellapp01 3960 8001  [2019-07-02 10:32:24 596] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 650] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 651] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 651] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 651] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:59690 )
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:59690, SOMAXCONN=5.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - server-configs:
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - 	defaultViewRadius : 80
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 724] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 725] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 725] - 	internalTcpAddr : 192.168.56.1:59690
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:30 725] - 	componentID : 8001
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:30 732] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 245] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 21836 ----
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 245] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 246] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 246] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 468] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 468] - Script::install(): KBExtra is successfully!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:32 771] - EntityDef::checkDefMethod: exposed of method: Account.leaveRoom, check the caller can use "def leaveRoom(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:32 773] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:32 778] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:32:32 783] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:32 785] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:32 787] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:32:32 788] - loaded entity-script:Room(3).
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:32 788] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:33 256] - ---- cellapp is running ----
+   DEBUG    cellapp-1 3960 8001  [2019-07-02 10:32:33 257] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:39 401] - EntityApp::checkTickPeriod: tick took 6144% (6.14 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 457] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 476] - Components::findComponents: found logger, addr:192.168.56.1:59695
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 476] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 477] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 479] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 582] - Components::findComponents: found dbmgr, addr:192.168.56.1:59696
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 583] - Components::addComponent: reset orderLog, uid=3960!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 583] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:40 583] - Components::findComponents: found dbmgr, addr:192.168.56.1:59696
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:41 585] - EntityApp::checkTickPeriod: tick took 1227% (1.23 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:42 657] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:42 719] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59692
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:42 719] - Components::addComponent[cellappmgr], uid=3960, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:42 720] - Components::findComponents: found cellappmgr, addr:192.168.56.1:59692
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:43 720] - EntityApp::checkTickPeriod: tick took 1163% (1.16 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:44 756] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:44 846] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59688
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:44 846] - Components::addComponent[baseappmgr], uid=3960, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:44 848] - Components::findComponents: found baseappmgr, addr:192.168.56.1:59688
+ WARNING    cellapp-1 3960 8001  [2019-07-02 10:32:45 848] - EntityApp::checkTickPeriod: tick took 1190% (1.19 seconds)!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 956] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 959] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 960] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59694, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59722/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 960] - Components::addComponent[baseapp], uid=3960, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 961] - ServerApp::onRegisterNewApp: uid:3960, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:59694, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:59722/0/0/0.
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 961] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:46 969] - Components::process(): Found all the components!
+    INFO    cellapp-1 3960 8001  [2019-07-02 10:32:49 968] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=EC0F12F3E05DB8AA6486E91AE38F663B.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:32:49 968] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:32:50 308] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20598, errorno=10048
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:32:51 531] - onInit::isReload:0
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:32:51 531] - d:\kbengine\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    cellapp01 3960 8001  [2019-07-02 10:32:51 532] - EntityApp::checkTickPeriod: tick took 1575% (1.58 seconds)!
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:32:51 556] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:32:52 078] - onGlobalData: Hall
+   DEBUG    cellapp01 3960 8001  [2019-07-02 10:33:01 237] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:01 238] - EntityApp::createEntity: new Room 3
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:01 238] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap, shouldLoadOnServer=true!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:33:01 241] - player go into the roomId is 6708888299609980928
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:01 248] - EntityApp::createEntity: new Account 2
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:01 257] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/gameMap!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:33:21 635] - player go into the roomId is 6708888299609980928
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:21 637] - EntityApp::createEntity: new Account 4
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:33:40 637] - player go into the roomId is 6708888299609980928
+    INFO    cellapp01 3960 8001  [2019-07-02 10:33:40 637] - EntityApp::createEntity: new Account 5
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:33:52 363] - shtart to play game!
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 465] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 465] - 43
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 465] - 42
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 465] - 40
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 465] - 12
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:02 466] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:04 538] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:04 539] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:06 439] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:06 440] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 066] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 57
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 56
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 54
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 53
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 51
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - 48
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:13 067] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:15 589] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:15 589] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:17 505] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:17 506] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:20 016] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:20 017] - 16
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:20 018] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:21 990] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:21 992] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:23 622] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:23 622] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:25 944] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:25 945] - 21
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:25 945] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:29 060] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:29 060] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:31 188] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:31 189] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:34 455] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:34 460] - 39
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:34 461] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:36 738] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:36 739] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:38 773] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:38 774] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 253] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 70
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 68
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 47
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 46
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 45
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 254] - 44
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:44 257] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:46 707] - not equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:46 708] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:48 856] - equite
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:48 856] - pass play poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:52 326] - update player poker
+   S_DBG    cellapp01 3960 8001  [2019-07-02 10:34:52 326] - 76

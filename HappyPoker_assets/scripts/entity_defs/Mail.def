@@ -1,0 +1,37 @@
+<root>
+	<Properties>
+    <!--邮件列表-->
+    <mailList>
+      <Type>    MAILLIST    </Type>
+      <Flags>   BASE    </Flags>
+      <Persistent>   true   </Persistent>
+      <Default>   []  </Default>
+    </mailList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods> 
+    <!--保存邮件-->
+    <saveMailToDB>
+      <Arg>   MAILDATA    </Arg>
+    </saveMailToDB>
+    
+    <!--删除邮件-->
+    <deleteMailFromDB>
+      <Arg>   UINT64      </Arg>
+      <Arg>   UINT64      </Arg>
+    </deleteMailFromDB>
+    
+    <!--获取邮件-->
+    <getPlayerMail>
+      <Arg>   ENTITYCALL    </Arg>
+      <Arg>   UINT64     </Arg>
+    </getPlayerMail>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,100 @@
+<root>
+	<Properties>
+    <!--房间Id-->
+    <roomId>
+      <Type>      INT64    </Type>
+      <Flags>   ALL_CLIENTS    </Flags>
+    </roomId>
+
+    <!--房间类型：0：系统创建的房间，1玩家创建的房间-->
+    <roomType>
+      <Type>     UINT8    </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+    </roomType>
+    
+    <!--游戏倍数-->
+    <gameMupe>
+      <Type>    INT32     </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default>    15      </Default>
+    </gameMupe>
+   
+    <!--房间玩家列表-->
+    <playerList>
+      <Type>    ENTITYLIST    </Type>
+      <Flags>   BASE    </Flags>
+    </playerList>
+	</Properties>
+  
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+    <!--房间需要玩家的数量-->
+    <needPlayerNum>
+    </needPlayerNum>
+  
+    <!--添加玩家到房间-->
+    <addPlayerToRoom>
+      <Arg>   ENTITYCALL   </Arg>
+    </addPlayerToRoom>
+    
+    <!--删除玩家-->
+    <delPlayerFromRoom>
+      <Arg>   UINT32  </Arg>
+    </delPlayerFromRoom>
+  
+    <!--添加玩家的Cell实体到房间-->
+    <addPlayerCellToRoom>
+      <Arg>   ENTITYCALL   </Arg>
+    </addPlayerCellToRoom>
+
+
+   
+    
+	</BaseMethods>
+
+	<CellMethods>
+    <!--初始化玩家cell数据-->
+    <initPlayerCellData>
+      <Arg>   UNICODE   </Arg>
+      <Arg>   UINT32    </Arg>
+      <Arg>   ENTITYCALL    </Arg>
+    </initPlayerCellData>
+    
+    <!--更新准备游戏的玩家数量-->
+    <updateReadyNum>
+      <Arg>   INT8    </Arg>
+    </updateReadyNum>
+    
+    <!--更新地主玩家-->
+    <updateLandlord>
+      <Arg>   INT8    </Arg>
+      <Arg>   INT8    </Arg>
+    </updateLandlord>
+    
+    
+    <!--玩家出牌-->
+    <playPoker>
+      <Arg>   POKERLIST   </Arg>
+      <Exposed/>
+    </playPoker>
+    
+    <!--玩家出出牌-->
+    <unPlayPoker>
+      <Exposed/>
+    </unPlayPoker>
+
+    <!--下一个玩家出牌-->
+    <nextToPlayPoker>
+    </nextToPlayPoker>
+    
+    
+    <!--游戏结束-->
+    <playGameOver>
+    </playGameOver>
+    
+	</CellMethods>
+
+</root>

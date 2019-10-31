@@ -1,0 +1,989 @@
+  INFO root [0x000018ec] [2019-06-10 18:15:07,636] - 
+  INFO root [0x000018ec] [2019-06-10 18:15:07,636] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000018ec] [2019-06-10 18:15:07,671] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000018ec] [2019-06-10 18:15:07,671] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000018ec] [2019-06-10 18:15:07,671] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53474 )
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53474, SOMAXCONN=5.
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - server-configs:
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - 	gameUpdateHertz : 10
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - 	defaultViewRadius : 80
+  INFO root [0x000018ec] [2019-06-10 18:15:07,707] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000018ec] [2019-06-10 18:15:07,711] - 	entryScriptFile : kbemain
+  INFO root [0x000018ec] [2019-06-10 18:15:07,711] - 	internalTcpAddr : 192.168.56.1:53474
+  INFO root [0x000018ec] [2019-06-10 18:15:07,711] - 	componentID : 8001
+  WARN root [0x000018ec] [2019-06-10 18:15:07,711] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x000018ec] [2019-06-10 18:15:07,727] - Components::findLogger: found logger, addr:192.168.56.1:53449
+  INFO root [0x000018ec] [2019-06-10 18:15:07,727] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000018ec] [2019-06-10 18:15:07,741] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000018ec] [2019-06-10 18:15:07,750] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 1272 ----
+  INFO root [0x000018ec] [2019-06-10 18:15:07,750] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000018ec] [2019-06-10 18:15:07,750] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000018ec] [2019-06-10 18:15:07,761] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000018ec] [2019-06-10 18:15:08,012] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000018ec] [2019-06-10 18:15:08,012] - Script::install(): KBExtra is successfully!
+  WARN root [0x000018ec] [2019-06-10 18:15:08,201] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000018ec] [2019-06-10 18:15:08,201] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000018ec] [2019-06-10 18:15:08,201] - loaded entity-script:Account(1).
+  WARN root [0x000018ec] [2019-06-10 18:15:08,201] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000018ec] [2019-06-10 18:15:08,201] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000018ec] [2019-06-10 18:15:08,201] - loaded entity-script:Room(3).
+  INFO root [0x000018ec] [2019-06-10 18:15:08,207] - TelnetServer server is running on port 50000
+  INFO root [0x000018ec] [2019-06-10 18:15:08,771] - ---- cellapp is running ----
+ DEBUG root [0x000018ec] [2019-06-10 18:15:08,771] - Components::process(): Request for the process of identity...
+  WARN root [0x000018ec] [2019-06-10 18:15:15,011] - Forwarding logs to logger[192.168.56.1:53449/0/0/0]...
+ ERROR root [0x000018ec] [2019-06-10 18:19:35,721] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=447470377836, lastReceivedTime=447432884551, inactivityExceptionPeriod=134887628)
+  INFO root [0x000030bc] [2019-06-10 18:19:37,581] - 
+  INFO root [0x000030bc] [2019-06-10 18:19:37,587] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000030bc] [2019-06-10 18:19:37,591] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000030bc] [2019-06-10 18:19:37,591] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000030bc] [2019-06-10 18:19:37,591] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53566 )
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53566, SOMAXCONN=5.
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - server-configs:
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	gameUpdateHertz : 10
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	defaultViewRadius : 80
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	entryScriptFile : kbemain
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	internalTcpAddr : 192.168.56.1:53566
+  INFO root [0x000030bc] [2019-06-10 18:19:37,621] - 	componentID : 8001
+  WARN root [0x000030bc] [2019-06-10 18:19:37,627] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x000030bc] [2019-06-10 18:19:39,140] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 7532 ----
+  INFO root [0x000030bc] [2019-06-10 18:19:39,140] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000030bc] [2019-06-10 18:19:39,140] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000030bc] [2019-06-10 18:19:39,140] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000030bc] [2019-06-10 18:19:39,388] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000030bc] [2019-06-10 18:19:39,391] - Script::install(): KBExtra is successfully!
+  WARN root [0x000030bc] [2019-06-10 18:19:39,548] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000030bc] [2019-06-10 18:19:39,552] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000030bc] [2019-06-10 18:19:39,552] - loaded entity-script:Account(1).
+  WARN root [0x000030bc] [2019-06-10 18:19:39,552] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000030bc] [2019-06-10 18:19:39,552] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000030bc] [2019-06-10 18:19:39,552] - loaded entity-script:Room(3).
+  INFO root [0x000030bc] [2019-06-10 18:19:39,552] - TelnetServer server is running on port 50000
+  INFO root [0x000030bc] [2019-06-10 18:19:40,189] - ---- cellapp is running ----
+ DEBUG root [0x000030bc] [2019-06-10 18:19:40,237] - Components::process(): Request for the process of identity...
+  WARN root [0x000030bc] [2019-06-10 18:19:46,497] - EntityApp::checkTickPeriod: tick took 6309% (6.31 seconds)!
+  INFO root [0x000030bc] [2019-06-10 18:19:47,516] - Components::findComponents: find logger(1)...
+  INFO root [0x000030bc] [2019-06-10 18:19:47,558] - Components::findComponents: found logger, addr:192.168.56.1:53562
+  INFO root [0x000030bc] [2019-06-10 18:19:47,558] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000030bc] [2019-06-10 18:19:47,558] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000030bc] [2019-06-10 18:19:47,558] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000030bc] [2019-06-10 18:19:47,680] - Components::findComponents: found dbmgr, addr:192.168.56.1:53559
+  INFO root [0x000030bc] [2019-06-10 18:19:47,680] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000030bc] [2019-06-10 18:19:47,680] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000030bc] [2019-06-10 18:19:47,680] - Components::findComponents: found dbmgr, addr:192.168.56.1:53559
+  WARN root [0x000030bc] [2019-06-10 18:19:48,697] - Forwarding logs to logger[192.168.56.1:53562/0/0/0]...
+ ERROR root [0x000030bc] [2019-06-10 18:24:22,833] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448116373619, lastReceivedTime=448082063809, inactivityExceptionPeriod=134887628)
+  INFO root [0x000030bc] [2019-06-10 18:24:22,840] - The following logs sent to logger failed:
+  WARN root [0x000030bc] [2019-06-10 18:24:22,841] - ==> [2019-06-10 18:24:22 832] TCPPacketReceiver::processPendingEvents(192.168.56.1:53562): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000030bc] [2019-06-10 18:24:22,842] - ==> [2019-06-10 18:24:22 834] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448116373619, lastReceivedTime=448082063809, inactivityExceptionPeriod=134887628)
+  WARN root [0x000030bc] [2019-06-10 18:24:22,911] - TCPPacketReceiver::processPendingEvents(192.168.56.1:53559): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000030bc] [2019-06-10 18:24:22,913] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448116554195, lastReceivedTime=448081897905, inactivityExceptionPeriod=134887628)
+  INFO root [0x000030bc] [2019-06-10 18:24:22,924] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000030bc] [2019-06-10 18:24:22,926] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000030bc] [2019-06-10 18:24:22,926] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000030bc] [2019-06-10 18:24:22,927] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000030bc] [2019-06-10 18:24:22,927] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000030bc] [2019-06-10 18:24:22,968] - Script::uninstall(): is successfully!
+ DEBUG root [0x000030bc] [2019-06-10 18:24:22,969] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000030bc] [2019-06-10 18:24:23,270] - ThreadPool::destroy(): waiting for thread(2)[0x24cb368,0x24cb918,], try=1
+  INFO root [0x000022b0] [2019-06-10 18:24:40,740] - 
+  INFO root [0x000022b0] [2019-06-10 18:24:40,743] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000022b0] [2019-06-10 18:24:40,745] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000022b0] [2019-06-10 18:24:40,745] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000022b0] [2019-06-10 18:24:40,745] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000022b0] [2019-06-10 18:24:40,811] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53673 )
+  INFO root [0x000022b0] [2019-06-10 18:24:40,812] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53673, SOMAXCONN=5.
+  INFO root [0x000022b0] [2019-06-10 18:24:40,812] - server-configs:
+  INFO root [0x000022b0] [2019-06-10 18:24:40,812] - 	gameUpdateHertz : 10
+  INFO root [0x000022b0] [2019-06-10 18:24:40,812] - 	defaultViewRadius : 80
+  INFO root [0x000022b0] [2019-06-10 18:24:40,812] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000022b0] [2019-06-10 18:24:40,813] - 	entryScriptFile : kbemain
+  INFO root [0x000022b0] [2019-06-10 18:24:40,813] - 	internalTcpAddr : 192.168.56.1:53673
+  INFO root [0x000022b0] [2019-06-10 18:24:40,813] - 	componentID : 8001
+  WARN root [0x000022b0] [2019-06-10 18:24:40,819] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x000022b0] [2019-06-10 18:24:42,325] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 12824 ----
+  INFO root [0x000022b0] [2019-06-10 18:24:42,327] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000022b0] [2019-06-10 18:24:42,327] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000022b0] [2019-06-10 18:24:42,328] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000022b0] [2019-06-10 18:24:42,568] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000022b0] [2019-06-10 18:24:42,568] - Script::install(): KBExtra is successfully!
+  WARN root [0x000022b0] [2019-06-10 18:24:42,781] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000022b0] [2019-06-10 18:24:42,781] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000022b0] [2019-06-10 18:24:42,782] - loaded entity-script:Account(1).
+  WARN root [0x000022b0] [2019-06-10 18:24:42,784] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000022b0] [2019-06-10 18:24:42,785] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000022b0] [2019-06-10 18:24:42,786] - loaded entity-script:Room(3).
+  INFO root [0x000022b0] [2019-06-10 18:24:42,786] - TelnetServer server is running on port 50000
+  INFO root [0x000022b0] [2019-06-10 18:24:43,451] - ---- cellapp is running ----
+ DEBUG root [0x000022b0] [2019-06-10 18:24:43,475] - Components::process(): Request for the process of identity...
+  WARN root [0x000022b0] [2019-06-10 18:24:46,927] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20186, errorno=10048
+  WARN root [0x000022b0] [2019-06-10 18:24:49,968] - EntityApp::checkTickPeriod: tick took 6517% (6.52 seconds)!
+  INFO root [0x000022b0] [2019-06-10 18:24:51,052] - Components::findComponents: find logger(1)...
+  INFO root [0x000022b0] [2019-06-10 18:24:51,099] - Components::findComponents: found logger, addr:192.168.56.1:53669
+  INFO root [0x000022b0] [2019-06-10 18:24:51,100] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000022b0] [2019-06-10 18:24:51,100] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000022b0] [2019-06-10 18:24:51,101] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000022b0] [2019-06-10 18:24:51,204] - Components::findComponents: found dbmgr, addr:192.168.56.1:53667
+  INFO root [0x000022b0] [2019-06-10 18:24:51,205] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000022b0] [2019-06-10 18:24:51,205] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000022b0] [2019-06-10 18:24:51,205] - Components::findComponents: found dbmgr, addr:192.168.56.1:53667
+  WARN root [0x000022b0] [2019-06-10 18:24:52,206] - EntityApp::checkTickPeriod: tick took 1253% (1.25 seconds)!
+  WARN root [0x000022b0] [2019-06-10 18:24:52,207] - Forwarding logs to logger[192.168.56.1:53669/0/0/0]...
+ ERROR root [0x000022b0] [2019-06-10 18:26:18,080] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448375687831, lastReceivedTime=448359001830, inactivityExceptionPeriod=134887500)
+  INFO root [0x000022b0] [2019-06-10 18:26:18,087] - The following logs sent to logger failed:
+  WARN root [0x000022b0] [2019-06-10 18:26:18,087] - ==> [2019-06-10 18:26:18 083] TCPPacketReceiver::processPendingEvents(192.168.56.1:53669): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000022b0] [2019-06-10 18:26:18,087] - ==> [2019-06-10 18:26:18 084] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448375687831, lastReceivedTime=448359001830, inactivityExceptionPeriod=134887500)
+  WARN root [0x000022b0] [2019-06-10 18:26:18,147] - TCPPacketReceiver::processPendingEvents(192.168.56.1:53667): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000022b0] [2019-06-10 18:26:18,147] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448375846207, lastReceivedTime=448358955526, inactivityExceptionPeriod=134887500)
+  INFO root [0x000022b0] [2019-06-10 18:26:18,157] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000022b0] [2019-06-10 18:26:18,160] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000022b0] [2019-06-10 18:26:18,160] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000022b0] [2019-06-10 18:26:18,160] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000022b0] [2019-06-10 18:26:18,160] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000022b0] [2019-06-10 18:26:18,189] - Script::uninstall(): is successfully!
+ DEBUG root [0x000022b0] [2019-06-10 18:26:18,189] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000022b0] [2019-06-10 18:26:18,497] - ThreadPool::destroy(): waiting for thread(2)[0xcb6e0,0xcb5a8,], try=1
+  INFO root [0x00002044] [2019-06-10 18:27:18,687] - 
+  INFO root [0x00002044] [2019-06-10 18:27:18,691] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002044] [2019-06-10 18:27:18,691] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002044] [2019-06-10 18:27:18,691] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00002044] [2019-06-10 18:27:18,691] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53735 )
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53735, SOMAXCONN=5.
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - server-configs:
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	gameUpdateHertz : 10
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	defaultViewRadius : 80
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	entryScriptFile : kbemain
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	internalTcpAddr : 192.168.56.1:53735
+  INFO root [0x00002044] [2019-06-10 18:27:18,710] - 	componentID : 8001
+  WARN root [0x00002044] [2019-06-10 18:27:18,710] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x00002044] [2019-06-10 18:27:20,230] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 3664 ----
+  INFO root [0x00002044] [2019-06-10 18:27:20,230] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00002044] [2019-06-10 18:27:20,230] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002044] [2019-06-10 18:27:20,230] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002044] [2019-06-10 18:27:20,501] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002044] [2019-06-10 18:27:20,501] - Script::install(): KBExtra is successfully!
+  WARN root [0x00002044] [2019-06-10 18:27:20,664] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00002044] [2019-06-10 18:27:20,670] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00002044] [2019-06-10 18:27:20,670] - loaded entity-script:Account(1).
+  WARN root [0x00002044] [2019-06-10 18:27:20,673] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00002044] [2019-06-10 18:27:20,673] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00002044] [2019-06-10 18:27:20,673] - loaded entity-script:Room(3).
+  INFO root [0x00002044] [2019-06-10 18:27:20,673] - TelnetServer server is running on port 50000
+  INFO root [0x00002044] [2019-06-10 18:27:21,234] - ---- cellapp is running ----
+ DEBUG root [0x00002044] [2019-06-10 18:27:21,243] - Components::process(): Request for the process of identity...
+  WARN root [0x00002044] [2019-06-10 18:27:27,517] - EntityApp::checkTickPeriod: tick took 6282% (6.28 seconds)!
+  WARN root [0x00002044] [2019-06-10 18:27:27,517] - TCPPacketReceiver::processPendingEvents(192.168.56.1:53750): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00002044] [2019-06-10 18:27:28,537] - Components::findComponents: find logger(1)...
+  INFO root [0x00002044] [2019-06-10 18:27:28,600] - Components::findComponents: found logger, addr:192.168.56.1:53733
+  INFO root [0x00002044] [2019-06-10 18:27:28,600] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00002044] [2019-06-10 18:27:28,600] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002044] [2019-06-10 18:27:28,600] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00002044] [2019-06-10 18:27:28,717] - Components::findComponents: found dbmgr, addr:192.168.56.1:53730
+  INFO root [0x00002044] [2019-06-10 18:27:28,717] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00002044] [2019-06-10 18:27:28,721] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002044] [2019-06-10 18:27:28,721] - Components::findComponents: found dbmgr, addr:192.168.56.1:53730
+  WARN root [0x00002044] [2019-06-10 18:27:29,737] - EntityApp::checkTickPeriod: tick took 1300% (1.30 seconds)!
+  WARN root [0x00002044] [2019-06-10 18:27:29,737] - Forwarding logs to logger[192.168.56.1:53733/0/0/0]...
+ ERROR root [0x00002044] [2019-06-10 18:28:30,863] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448674454938, lastReceivedTime=448647003234, inactivityExceptionPeriod=134887628)
+  INFO root [0x00002044] [2019-06-10 18:28:30,863] - The following logs sent to logger failed:
+  WARN root [0x00002044] [2019-06-10 18:28:30,863] - ==> [2019-06-10 18:28:30 868] TCPPacketReceiver::processPendingEvents(192.168.56.1:53733): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002044] [2019-06-10 18:28:30,863] - ==> [2019-06-10 18:28:30 870] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448674454938, lastReceivedTime=448647003234, inactivityExceptionPeriod=134887628)
+  WARN root [0x00002044] [2019-06-10 18:28:30,941] - TCPPacketReceiver::processPendingEvents(192.168.56.1:53730): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002044] [2019-06-10 18:28:30,941] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448674641915, lastReceivedTime=448646853832, inactivityExceptionPeriod=134887628)
+  INFO root [0x00002044] [2019-06-10 18:28:30,957] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002044] [2019-06-10 18:28:30,957] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002044] [2019-06-10 18:28:30,957] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002044] [2019-06-10 18:28:30,957] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00002044] [2019-06-10 18:28:30,957] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00002044] [2019-06-10 18:28:31,004] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002044] [2019-06-10 18:28:31,004] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002044] [2019-06-10 18:28:31,316] - ThreadPool::destroy(): waiting for thread(2)[0x2094728,0x2094790,], try=1
+  INFO root [0x000036d4] [2019-06-10 18:28:42,151] - 
+  INFO root [0x000036d4] [2019-06-10 18:28:42,151] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000036d4] [2019-06-10 18:28:42,151] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000036d4] [2019-06-10 18:28:42,151] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000036d4] [2019-06-10 18:28:42,151] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:53799 )
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:53799, SOMAXCONN=5.
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - server-configs:
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	gameUpdateHertz : 10
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	defaultViewRadius : 80
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	entryScriptFile : kbemain
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	internalTcpAddr : 192.168.56.1:53799
+  INFO root [0x000036d4] [2019-06-10 18:28:42,182] - 	componentID : 8001
+  WARN root [0x000036d4] [2019-06-10 18:28:42,182] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x000036d4] [2019-06-10 18:28:43,729] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 9608 ----
+  INFO root [0x000036d4] [2019-06-10 18:28:43,729] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000036d4] [2019-06-10 18:28:43,729] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000036d4] [2019-06-10 18:28:43,729] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000036d4] [2019-06-10 18:28:44,041] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000036d4] [2019-06-10 18:28:44,041] - Script::install(): KBExtra is successfully!
+  WARN root [0x000036d4] [2019-06-10 18:28:44,213] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000036d4] [2019-06-10 18:28:44,213] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000036d4] [2019-06-10 18:28:44,213] - loaded entity-script:Account(1).
+  WARN root [0x000036d4] [2019-06-10 18:28:44,213] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000036d4] [2019-06-10 18:28:44,213] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000036d4] [2019-06-10 18:28:44,213] - loaded entity-script:Room(3).
+  INFO root [0x000036d4] [2019-06-10 18:28:44,213] - TelnetServer server is running on port 50000
+  INFO root [0x000036d4] [2019-06-10 18:28:44,760] - ---- cellapp is running ----
+ DEBUG root [0x000036d4] [2019-06-10 18:28:44,760] - Components::process(): Request for the process of identity...
+  WARN root [0x000036d4] [2019-06-10 18:28:51,071] - EntityApp::checkTickPeriod: tick took 6304% (6.30 seconds)!
+  INFO root [0x000036d4] [2019-06-10 18:28:52,180] - Components::findComponents: find logger(1)...
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::findComponents: found logger, addr:192.168.56.1:53795
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::findComponents: found logger, addr:192.168.56.1:53795
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::findComponents: found dbmgr, addr:192.168.56.1:53792
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000036d4] [2019-06-10 18:28:52,211] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000036d4] [2019-06-10 18:28:52,336] - Components::findComponents: found dbmgr, addr:192.168.56.1:53792
+  WARN root [0x000036d4] [2019-06-10 18:28:53,351] - Forwarding logs to logger[192.168.56.1:53795/0/0/0]...
+ ERROR root [0x000036d4] [2019-06-10 18:30:32,386] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448947870240, lastReceivedTime=448902114064, inactivityExceptionPeriod=134887804)
+  INFO root [0x000036d4] [2019-06-10 18:30:32,395] - The following logs sent to logger failed:
+  WARN root [0x000036d4] [2019-06-10 18:30:32,395] - ==> [2019-06-10 18:30:32 385] TCPPacketReceiver::processPendingEvents(192.168.56.1:53795): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000036d4] [2019-06-10 18:30:32,396] - ==> [2019-06-10 18:30:32 387] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448947870240, lastReceivedTime=448902114064, inactivityExceptionPeriod=134887804)
+  WARN root [0x000036d4] [2019-06-10 18:30:32,460] - TCPPacketReceiver::processPendingEvents(192.168.56.1:53792): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000036d4] [2019-06-10 18:30:32,463] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=448948041117, lastReceivedTime=448902039501, inactivityExceptionPeriod=134887804)
+  INFO root [0x000036d4] [2019-06-10 18:30:32,471] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000036d4] [2019-06-10 18:30:32,487] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000036d4] [2019-06-10 18:30:32,488] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000036d4] [2019-06-10 18:30:32,488] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000036d4] [2019-06-10 18:30:32,488] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000036d4] [2019-06-10 18:30:32,533] - Script::uninstall(): is successfully!
+ DEBUG root [0x000036d4] [2019-06-10 18:30:32,533] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000036d4] [2019-06-10 18:30:32,834] - ThreadPool::destroy(): waiting for thread(2)[0x2097550,0x2097140,], try=1
+  INFO root [0x0000263c] [2019-06-10 18:33:41,245] - 
+  INFO root [0x0000263c] [2019-06-10 18:33:41,292] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000263c] [2019-06-10 18:33:41,292] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000263c] [2019-06-10 18:33:41,292] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x0000263c] [2019-06-10 18:33:41,292] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000263c] [2019-06-10 18:33:41,324] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:49720 )
+  INFO root [0x0000263c] [2019-06-10 18:33:41,324] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:49720, SOMAXCONN=5.
+  INFO root [0x0000263c] [2019-06-10 18:33:41,324] - server-configs:
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	gameUpdateHertz : 10
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	defaultViewRadius : 80
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	entryScriptFile : kbemain
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	internalTcpAddr : 192.168.56.1:49720
+  INFO root [0x0000263c] [2019-06-10 18:33:41,339] - 	componentID : 8001
+  WARN root [0x0000263c] [2019-06-10 18:33:41,339] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x0000263c] [2019-06-10 18:33:42,870] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 9784 ----
+  INFO root [0x0000263c] [2019-06-10 18:33:42,870] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000263c] [2019-06-10 18:33:42,870] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000263c] [2019-06-10 18:33:42,870] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000263c] [2019-06-10 18:33:43,105] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000263c] [2019-06-10 18:33:43,105] - Script::install(): KBExtra is successfully!
+  WARN root [0x0000263c] [2019-06-10 18:33:43,277] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000263c] [2019-06-10 18:33:43,277] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000263c] [2019-06-10 18:33:43,277] - loaded entity-script:Account(1).
+  WARN root [0x0000263c] [2019-06-10 18:33:43,277] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000263c] [2019-06-10 18:33:43,277] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000263c] [2019-06-10 18:33:43,277] - loaded entity-script:Room(3).
+  INFO root [0x0000263c] [2019-06-10 18:33:43,277] - TelnetServer server is running on port 50000
+  INFO root [0x0000263c] [2019-06-10 18:33:43,683] - ---- cellapp is running ----
+ DEBUG root [0x0000263c] [2019-06-10 18:33:43,683] - Components::process(): Request for the process of identity...
+  WARN root [0x0000263c] [2019-06-10 18:33:49,995] - EntityApp::checkTickPeriod: tick took 6305% (6.30 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:33:51,105] - Components::findComponents: find logger(1)...
+  WARN root [0x0000263c] [2019-06-10 18:33:52,199] - Components::findComponents: not found logger!
+  WARN root [0x0000263c] [2019-06-10 18:33:52,199] - EntityApp::checkTickPeriod: tick took 1204% (1.20 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:33:53,214] - Components::findComponents: find dbmgr(1)...
+  WARN root [0x0000263c] [2019-06-10 18:33:54,277] - EntityApp::checkTickPeriod: tick took 1078% (1.08 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:33:55,292] - Components::findComponents: find dbmgr(2)...
+  WARN root [0x0000263c] [2019-06-10 18:33:56,355] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:33:57,386] - Components::findComponents: find dbmgr(3)...
+  WARN root [0x0000263c] [2019-06-10 18:33:58,417] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:33:59,495] - Components::findComponents: find dbmgr(4)...
+  WARN root [0x0000263c] [2019-06-10 18:34:00,511] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:01,589] - Components::findComponents: find dbmgr(5)...
+  WARN root [0x0000263c] [2019-06-10 18:34:02,605] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:02,808] - EntityApp::checkTickPeriod: tick took 211% (0.21 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:02,839] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49747): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x0000263c] [2019-06-10 18:34:03,699] - Components::findComponents: find dbmgr(6)...
+  WARN root [0x0000263c] [2019-06-10 18:34:04,792] - EntityApp::checkTickPeriod: tick took 1203% (1.20 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:05,808] - Components::findComponents: find dbmgr(7)...
+  WARN root [0x0000263c] [2019-06-10 18:34:06,886] - EntityApp::checkTickPeriod: tick took 1093% (1.09 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:06,886] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49754): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x0000263c] [2019-06-10 18:34:07,886] - Components::findComponents: find dbmgr(8)...
+  WARN root [0x0000263c] [2019-06-10 18:34:08,964] - EntityApp::checkTickPeriod: tick took 1172% (1.17 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:09,995] - Components::findComponents: find dbmgr(9)...
+  WARN root [0x0000263c] [2019-06-10 18:34:11,074] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:11,074] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49764): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x0000263c] [2019-06-10 18:34:12,089] - Components::findComponents: find dbmgr(10)...
+  WARN root [0x0000263c] [2019-06-10 18:34:13,167] - EntityApp::checkTickPeriod: tick took 1171% (1.17 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:14,199] - Components::findComponents: find dbmgr(11)...
+  WARN root [0x0000263c] [2019-06-10 18:34:15,245] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:16,292] - Components::findComponents: find dbmgr(12)...
+  WARN root [0x0000263c] [2019-06-10 18:34:17,355] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:18,386] - Components::findComponents: find dbmgr(13)...
+  WARN root [0x0000263c] [2019-06-10 18:34:19,417] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:20,495] - Components::findComponents: find dbmgr(14)...
+  WARN root [0x0000263c] [2019-06-10 18:34:21,620] - EntityApp::checkTickPeriod: tick took 1234% (1.23 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:22,698] - Components::findComponents: find dbmgr(15)...
+  WARN root [0x0000263c] [2019-06-10 18:34:23,808] - EntityApp::checkTickPeriod: tick took 1218% (1.22 seconds)!
+  INFO root [0x0000263c] [2019-06-10 18:34:24,808] - Components::findComponents: find dbmgr(16)...
+  WARN root [0x0000263c] [2019-06-10 18:34:25,886] - EntityApp::checkTickPeriod: tick took 1093% (1.09 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:26,917] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:27,964] - EntityApp::checkTickPeriod: tick took 1078% (1.08 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:27,964] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49794): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  WARN root [0x0000263c] [2019-06-10 18:34:28,995] - Components::findComponents: find dbmgr(18)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:30,042] - EntityApp::checkTickPeriod: tick took 1156% (1.16 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:31,089] - Components::findComponents: find dbmgr(19)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:32,105] - EntityApp::checkTickPeriod: tick took 1109% (1.11 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:33,105] - Components::findComponents: find dbmgr(20)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:34,183] - EntityApp::checkTickPeriod: tick took 1093% (1.09 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:35,199] - Components::findComponents: find dbmgr(21)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:36,261] - EntityApp::checkTickPeriod: tick took 1172% (1.17 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:37,292] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:38,339] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:39,386] - Components::findComponents: find dbmgr(23)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:40,433] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:41,495] - Components::findComponents: find dbmgr(24)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:42,620] - EntityApp::checkTickPeriod: tick took 1234% (1.23 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:43,698] - Components::findComponents: find dbmgr(25)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:44,730] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:45,792] - Components::findComponents: find dbmgr(26)...
+delay time is too long, please check the dbmgr logs!
+  WARN root [0x0000263c] [2019-06-10 18:34:46,824] - EntityApp::checkTickPeriod: tick took 1125% (1.13 seconds)!
+  WARN root [0x0000263c] [2019-06-10 18:34:47,886] - Components::findComponents: find dbmgr(27)...
+delay time is too long, please check the dbmgr logs!
+  INFO root [0x00001110] [2019-06-10 18:34:49,745] - 
+  INFO root [0x00001110] [2019-06-10 18:34:49,761] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001110] [2019-06-10 18:34:49,761] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00001110] [2019-06-10 18:34:49,761] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00001110] [2019-06-10 18:34:49,761] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:49805 )
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:49805, SOMAXCONN=5.
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - server-configs:
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	gameUpdateHertz : 10
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	defaultViewRadius : 80
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	entryScriptFile : kbemain
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	internalTcpAddr : 192.168.56.1:49805
+  INFO root [0x00001110] [2019-06-10 18:34:49,792] - 	componentID : 8001
+  WARN root [0x00001110] [2019-06-10 18:34:49,808] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  WARN root [0x00001110] [2019-06-10 18:34:50,433] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20275, errorno=10048
+  INFO root [0x00001110] [2019-06-10 18:34:50,433] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 4600 ----
+  INFO root [0x00001110] [2019-06-10 18:34:50,433] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00001110] [2019-06-10 18:34:50,433] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001110] [2019-06-10 18:34:50,433] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001110] [2019-06-10 18:34:50,667] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001110] [2019-06-10 18:34:50,667] - Script::install(): KBExtra is successfully!
+  WARN root [0x00001110] [2019-06-10 18:34:50,839] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001110] [2019-06-10 18:34:50,839] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001110] [2019-06-10 18:34:50,839] - loaded entity-script:Account(1).
+  WARN root [0x00001110] [2019-06-10 18:34:50,839] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001110] [2019-06-10 18:34:50,839] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001110] [2019-06-10 18:34:50,839] - loaded entity-script:Room(3).
+  INFO root [0x00001110] [2019-06-10 18:34:50,839] - TelnetServer server is running on port 50000
+  INFO root [0x00001110] [2019-06-10 18:34:51,245] - ---- cellapp is running ----
+ DEBUG root [0x00001110] [2019-06-10 18:34:51,245] - Components::process(): Request for the process of identity...
+  WARN root [0x00001110] [2019-06-10 18:34:57,558] - EntityApp::checkTickPeriod: tick took 6306% (6.31 seconds)!
+  INFO root [0x00001110] [2019-06-10 18:34:58,589] - Components::findComponents: find logger(1)...
+  INFO root [0x00001110] [2019-06-10 18:34:58,636] - Components::findComponents: found logger, addr:192.168.56.1:49804
+  INFO root [0x00001110] [2019-06-10 18:34:58,636] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001110] [2019-06-10 18:34:58,636] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001110] [2019-06-10 18:34:58,636] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001110] [2019-06-10 18:34:58,745] - Components::findComponents: found dbmgr, addr:192.168.56.1:49802
+  INFO root [0x00001110] [2019-06-10 18:34:58,745] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001110] [2019-06-10 18:34:58,745] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001110] [2019-06-10 18:34:58,745] - Components::findComponents: found dbmgr, addr:192.168.56.1:49802
+  WARN root [0x00001110] [2019-06-10 18:34:59,745] - Forwarding logs to logger[192.168.56.1:49804/0/0/0]...
+ ERROR root [0x00001110] [2019-06-10 18:43:58,647] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7665973269, lastReceivedTime=7574383168, inactivityExceptionPeriod=599499873)
+  INFO root [0x00001110] [2019-06-10 18:43:58,694] - The following logs sent to logger failed:
+  WARN root [0x00001110] [2019-06-10 18:43:58,694] - ==> [2019-06-10 18:43:58 643] TCPPacketReceiver::processPendingEvents(192.168.56.1:49804): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001110] [2019-06-10 18:43:58,694] - ==> [2019-06-10 18:43:58 653] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7665973269, lastReceivedTime=7574383168, inactivityExceptionPeriod=599499873)
+  WARN root [0x00001110] [2019-06-10 18:43:58,835] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49802): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001110] [2019-06-10 18:43:58,835] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7667945107, lastReceivedTime=7574069630, inactivityExceptionPeriod=599499873)
+  INFO root [0x00001110] [2019-06-10 18:43:58,897] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001110] [2019-06-10 18:43:58,929] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001110] [2019-06-10 18:43:58,960] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001110] [2019-06-10 18:43:58,975] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001110] [2019-06-10 18:43:58,975] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001110] [2019-06-10 18:43:59,054] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001110] [2019-06-10 18:43:59,054] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001110] [2019-06-10 18:43:59,397] - ThreadPool::destroy(): waiting for thread(2)[0x1b0b058,0x1b0b190,], try=1
+  INFO root [0x0000259c] [2019-06-10 18:44:01,335] - 
+  INFO root [0x0000259c] [2019-06-10 18:44:01,335] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000259c] [2019-06-10 18:44:01,350] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000259c] [2019-06-10 18:44:01,350] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x0000259c] [2019-06-10 18:44:01,350] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:50180 )
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:50180, SOMAXCONN=5.
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - server-configs:
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	gameUpdateHertz : 10
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	defaultViewRadius : 80
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	entryScriptFile : kbemain
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	internalTcpAddr : 192.168.56.1:50180
+  INFO root [0x0000259c] [2019-06-10 18:44:01,382] - 	componentID : 8001
+  WARN root [0x0000259c] [2019-06-10 18:44:01,382] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x0000259c] [2019-06-10 18:44:02,882] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 8872 ----
+  INFO root [0x0000259c] [2019-06-10 18:44:02,882] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000259c] [2019-06-10 18:44:02,882] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000259c] [2019-06-10 18:44:02,882] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000259c] [2019-06-10 18:44:03,163] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000259c] [2019-06-10 18:44:03,163] - Script::install(): KBExtra is successfully!
+  WARN root [0x0000259c] [2019-06-10 18:44:03,335] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000259c] [2019-06-10 18:44:03,335] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000259c] [2019-06-10 18:44:03,350] - loaded entity-script:Account(1).
+  WARN root [0x0000259c] [2019-06-10 18:44:03,350] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000259c] [2019-06-10 18:44:03,350] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000259c] [2019-06-10 18:44:03,350] - loaded entity-script:Room(3).
+  INFO root [0x0000259c] [2019-06-10 18:44:03,350] - TelnetServer server is running on port 50000
+  INFO root [0x0000259c] [2019-06-10 18:44:03,772] - ---- cellapp is running ----
+ DEBUG root [0x0000259c] [2019-06-10 18:44:03,772] - Components::process(): Request for the process of identity...
+  WARN root [0x0000259c] [2019-06-10 18:44:10,063] - EntityApp::checkTickPeriod: tick took 6289% (6.29 seconds)!
+  INFO root [0x0000259c] [2019-06-10 18:44:11,172] - Components::findComponents: find logger(1)...
+  INFO root [0x0000259c] [2019-06-10 18:44:11,234] - Components::findComponents: found logger, addr:192.168.56.1:50182
+  INFO root [0x0000259c] [2019-06-10 18:44:11,234] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000259c] [2019-06-10 18:44:11,234] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000259c] [2019-06-10 18:44:11,234] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000259c] [2019-06-10 18:44:11,250] - Components::findComponents: found dbmgr, addr:192.168.56.1:50178
+  INFO root [0x0000259c] [2019-06-10 18:44:11,250] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000259c] [2019-06-10 18:44:11,250] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000259c] [2019-06-10 18:44:11,359] - Components::findComponents: found dbmgr, addr:192.168.56.1:50178
+  WARN root [0x0000259c] [2019-06-10 18:44:12,359] - Forwarding logs to logger[192.168.56.1:50182/0/0/0]...
+ ERROR root [0x0000259c] [2019-06-10 18:46:45,020] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=9329727379, lastReceivedTime=9193421415, inactivityExceptionPeriod=599499745)
+  INFO root [0x0000259c] [2019-06-10 18:46:45,036] - The following logs sent to logger failed:
+  WARN root [0x0000259c] [2019-06-10 18:46:45,036] - ==> [2019-06-10 18:46:45 021] TCPPacketReceiver::processPendingEvents(192.168.56.1:50182): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000259c] [2019-06-10 18:46:45,036] - ==> [2019-06-10 18:46:45 028] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=9329727379, lastReceivedTime=9193421415, inactivityExceptionPeriod=599499745)
+  WARN root [0x0000259c] [2019-06-10 18:46:45,208] - TCPPacketReceiver::processPendingEvents(192.168.56.1:50178): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000259c] [2019-06-10 18:46:45,208] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=9331644051, lastReceivedTime=9192492604, inactivityExceptionPeriod=599499745)
+  INFO root [0x0000259c] [2019-06-10 18:46:45,223] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000259c] [2019-06-10 18:46:45,239] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000259c] [2019-06-10 18:46:45,239] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000259c] [2019-06-10 18:46:45,239] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000259c] [2019-06-10 18:46:45,239] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000259c] [2019-06-10 18:46:45,270] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000259c] [2019-06-10 18:46:45,270] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000259c] [2019-06-10 18:46:45,598] - ThreadPool::destroy(): waiting for thread(2)[0x1bac668,0x1bac8d8,], try=1
+  INFO root [0x00001b10] [2019-06-10 18:46:57,242] - 
+  INFO root [0x00001b10] [2019-06-10 18:46:57,242] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001b10] [2019-06-10 18:46:57,258] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00001b10] [2019-06-10 18:46:57,258] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00001b10] [2019-06-10 18:46:57,258] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:50293 )
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:50293, SOMAXCONN=5.
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - server-configs:
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	gameUpdateHertz : 10
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	defaultViewRadius : 80
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	entryScriptFile : kbemain
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	internalTcpAddr : 192.168.56.1:50293
+  INFO root [0x00001b10] [2019-06-10 18:46:57,289] - 	componentID : 8001
+  WARN root [0x00001b10] [2019-06-10 18:46:57,289] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x00001b10] [2019-06-10 18:46:58,821] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 9984 ----
+  INFO root [0x00001b10] [2019-06-10 18:46:58,821] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00001b10] [2019-06-10 18:46:58,821] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001b10] [2019-06-10 18:46:58,821] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001b10] [2019-06-10 18:46:59,055] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001b10] [2019-06-10 18:46:59,055] - Script::install(): KBExtra is successfully!
+  WARN root [0x00001b10] [2019-06-10 18:46:59,227] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001b10] [2019-06-10 18:46:59,227] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001b10] [2019-06-10 18:46:59,227] - loaded entity-script:Account(1).
+  WARN root [0x00001b10] [2019-06-10 18:46:59,227] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001b10] [2019-06-10 18:46:59,227] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001b10] [2019-06-10 18:46:59,227] - loaded entity-script:Room(3).
+  INFO root [0x00001b10] [2019-06-10 18:46:59,227] - TelnetServer server is running on port 50000
+  INFO root [0x00001b10] [2019-06-10 18:46:59,664] - ---- cellapp is running ----
+ DEBUG root [0x00001b10] [2019-06-10 18:46:59,664] - Components::process(): Request for the process of identity...
+  WARN root [0x00001b10] [2019-06-10 18:47:05,883] - EntityApp::checkTickPeriod: tick took 6219% (6.22 seconds)!
+  INFO root [0x00001b10] [2019-06-10 18:47:06,977] - Components::findComponents: find logger(1)...
+  INFO root [0x00001b10] [2019-06-10 18:47:07,086] - Components::findComponents: found logger, addr:192.168.56.1:50296
+  INFO root [0x00001b10] [2019-06-10 18:47:07,086] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001b10] [2019-06-10 18:47:07,086] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001b10] [2019-06-10 18:47:07,086] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001b10] [2019-06-10 18:47:07,196] - Components::findComponents: found dbmgr, addr:192.168.56.1:50291
+  INFO root [0x00001b10] [2019-06-10 18:47:07,196] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001b10] [2019-06-10 18:47:07,196] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001b10] [2019-06-10 18:47:07,196] - Components::findComponents: found dbmgr, addr:192.168.56.1:50291
+  WARN root [0x00001b10] [2019-06-10 18:47:08,211] - EntityApp::checkTickPeriod: tick took 1342% (1.34 seconds)!
+  WARN root [0x00001b10] [2019-06-10 18:47:08,211] - Forwarding logs to logger[192.168.56.1:50296/0/0/0]...
+ ERROR root [0x00001b10] [2019-06-10 18:48:10,381] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10183414689, lastReceivedTime=10052980463, inactivityExceptionPeriod=599501215)
+  INFO root [0x00001b10] [2019-06-10 18:48:10,397] - The following logs sent to logger failed:
+  WARN root [0x00001b10] [2019-06-10 18:48:10,397] - ==> [2019-06-10 18:48:10 390] TCPPacketReceiver::processPendingEvents(192.168.56.1:50296): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001b10] [2019-06-10 18:48:10,397] - ==> [2019-06-10 18:48:10 397] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10183414689, lastReceivedTime=10052980463, inactivityExceptionPeriod=599501215)
+  WARN root [0x00001b10] [2019-06-10 18:48:10,584] - TCPPacketReceiver::processPendingEvents(192.168.56.1:50291): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001b10] [2019-06-10 18:48:10,584] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10185409366, lastReceivedTime=10050938682, inactivityExceptionPeriod=599501215)
+  INFO root [0x00001b10] [2019-06-10 18:48:10,600] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001b10] [2019-06-10 18:48:10,615] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001b10] [2019-06-10 18:48:10,615] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001b10] [2019-06-10 18:48:10,615] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001b10] [2019-06-10 18:48:10,615] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001b10] [2019-06-10 18:48:10,647] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001b10] [2019-06-10 18:48:10,647] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001b10] [2019-06-10 18:48:10,959] - ThreadPool::destroy(): waiting for thread(2)[0x1ba5678,0x1ba53a0,], try=1
+  INFO root [0x00000434] [2019-06-10 18:48:19,897] - 
+  INFO root [0x00000434] [2019-06-10 18:48:19,897] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000434] [2019-06-10 18:48:19,912] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00000434] [2019-06-10 18:48:19,912] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00000434] [2019-06-10 18:48:19,912] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:50391 )
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:50391, SOMAXCONN=5.
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - server-configs:
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	gameUpdateHertz : 10
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	defaultViewRadius : 80
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	entryScriptFile : kbemain
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	internalTcpAddr : 192.168.56.1:50391
+  INFO root [0x00000434] [2019-06-10 18:48:19,928] - 	componentID : 8001
+  WARN root [0x00000434] [2019-06-10 18:48:19,944] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x00000434] [2019-06-10 18:48:21,459] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 11192 ----
+  INFO root [0x00000434] [2019-06-10 18:48:21,459] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00000434] [2019-06-10 18:48:21,459] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000434] [2019-06-10 18:48:21,459] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000434] [2019-06-10 18:48:21,694] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00000434] [2019-06-10 18:48:21,694] - Script::install(): KBExtra is successfully!
+  WARN root [0x00000434] [2019-06-10 18:48:21,865] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00000434] [2019-06-10 18:48:21,881] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00000434] [2019-06-10 18:48:21,881] - loaded entity-script:Account(1).
+  WARN root [0x00000434] [2019-06-10 18:48:21,881] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00000434] [2019-06-10 18:48:21,881] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00000434] [2019-06-10 18:48:21,881] - loaded entity-script:Room(3).
+  INFO root [0x00000434] [2019-06-10 18:48:21,881] - TelnetServer server is running on port 50000
+  INFO root [0x00000434] [2019-06-10 18:48:22,303] - ---- cellapp is running ----
+ DEBUG root [0x00000434] [2019-06-10 18:48:22,303] - Components::process(): Request for the process of identity...
+  WARN root [0x00000434] [2019-06-10 18:48:28,616] - EntityApp::checkTickPeriod: tick took 6307% (6.31 seconds)!
+  INFO root [0x00000434] [2019-06-10 18:48:29,631] - Components::findComponents: find logger(1)...
+  INFO root [0x00000434] [2019-06-10 18:48:29,725] - Components::findComponents: found logger, addr:192.168.56.1:50386
+  INFO root [0x00000434] [2019-06-10 18:48:29,725] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00000434] [2019-06-10 18:48:29,725] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000434] [2019-06-10 18:48:29,725] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00000434] [2019-06-10 18:48:29,834] - Components::findComponents: found dbmgr, addr:192.168.56.1:50387
+  INFO root [0x00000434] [2019-06-10 18:48:29,834] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00000434] [2019-06-10 18:48:29,834] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000434] [2019-06-10 18:48:29,834] - Components::findComponents: found dbmgr, addr:192.168.56.1:50387
+  WARN root [0x00000434] [2019-06-10 18:48:30,834] - Forwarding logs to logger[192.168.56.1:50386/0/0/0]...
+ ERROR root [0x00000434] [2019-06-10 18:54:48,158] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=14161177511, lastReceivedTime=13877798597, inactivityExceptionPeriod=599499617)
+  INFO root [0x00000434] [2019-06-10 18:54:48,180] - The following logs sent to logger failed:
+  WARN root [0x00000434] [2019-06-10 18:54:48,180] - ==> [2019-06-10 18:54:48 170] TCPPacketReceiver::processPendingEvents(192.168.56.1:50386): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000434] [2019-06-10 18:54:48,180] - ==> [2019-06-10 18:54:48 173] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=14161177511, lastReceivedTime=13877798597, inactivityExceptionPeriod=599499617)
+  WARN root [0x00000434] [2019-06-10 18:54:48,380] - TCPPacketReceiver::processPendingEvents(192.168.56.1:50387): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000434] [2019-06-10 18:54:48,396] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=14163507465, lastReceivedTime=13877796133, inactivityExceptionPeriod=599499617)
+  INFO root [0x00000434] [2019-06-10 18:54:48,412] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00000434] [2019-06-10 18:54:48,412] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00000434] [2019-06-10 18:54:48,412] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00000434] [2019-06-10 18:54:48,412] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00000434] [2019-06-10 18:54:48,412] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00000434] [2019-06-10 18:54:48,443] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000434] [2019-06-10 18:54:48,443] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00000434] [2019-06-10 18:54:48,760] - ThreadPool::destroy(): waiting for thread(2)[0x195eb58,0x195ecf8,], try=1
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,176] - TPThread::~TPThread(): 0x195eb58
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,183] - TPThread::~TPThread(): 0x195ecf8
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,199] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - Bundle::destroyObjPool(): size 19.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - Channel::destroyObjPool(): size 12.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - TCPPacket::destroyObjPool(): size 2.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - UDPPacket::destroyObjPool(): size 12.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - EndPoint::destroyObjPool(): size 12.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00000434] [2019-06-10 18:54:49,230] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00000434] [2019-06-10 18:54:49,230] - cellapp(8001) has shut down.
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,329] - 
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,376] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,376] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,376] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,376] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:49725 )
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:49725, SOMAXCONN=5.
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - server-configs:
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	gameUpdateHertz : 10
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	defaultViewRadius : 80
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	entryScriptFile : kbemain
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	internalTcpAddr : 192.168.56.1:49725
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,392] - 	componentID : 8001
+  WARN root [0x00000eb0] [2019-06-10 18:59:52,392] - invalid UID(0) <= 0, please check UID for environment! automatically set to 61965.
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - Components::findLogger: found logger, addr:192.168.56.1:49714
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - Components::addComponent: reset orderLog, uid=61965!
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - Components::addComponent[logger], uid=61965, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 61965. PID: 3796 ----
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,439] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,657] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,657] - Script::install(): KBExtra is successfully!
+  WARN root [0x00000eb0] [2019-06-10 18:59:52,782] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00000eb0] [2019-06-10 18:59:52,782] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00000eb0] [2019-06-10 18:59:52,782] - loaded entity-script:Account(1).
+  WARN root [0x00000eb0] [2019-06-10 18:59:52,798] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00000eb0] [2019-06-10 18:59:52,798] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00000eb0] [2019-06-10 18:59:52,798] - loaded entity-script:Room(3).
+  INFO root [0x00000eb0] [2019-06-10 18:59:52,798] - TelnetServer server is running on port 50000
+  INFO root [0x00000eb0] [2019-06-10 18:59:53,204] - ---- cellapp is running ----
+ DEBUG root [0x00000eb0] [2019-06-10 18:59:53,204] - Components::process(): Request for the process of identity...
+  WARN root [0x00000eb0] [2019-06-10 18:59:59,500] - Forwarding logs to logger[192.168.56.1:49714/0/0/0]...
+ ERROR root [0x00000eb0] [2019-06-10 19:03:05,999] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=693357609, lastReceivedTime=653294016, inactivityExceptionPeriod=134887676)
+  INFO root [0x00000eb0] [2019-06-10 19:03:06,093] - The following logs sent to logger failed:
+  WARN root [0x00000eb0] [2019-06-10 19:03:06,155] - ==> [2019-06-10 19:03:05 981] TCPPacketReceiver::processPendingEvents(192.168.56.1:49714): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000eb0] [2019-06-10 19:03:06,155] - ==> [2019-06-10 19:03:06 014] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=693357609, lastReceivedTime=653294016, inactivityExceptionPeriod=134887676)
+  WARN root [0x00000eb0] [2019-06-10 19:03:06,155] - EntityApp::checkTickPeriod: tick took 248% (0.25 seconds)!
+  WARN root [0x00000eb0] [2019-06-10 19:03:06,155] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49719): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000eb0] [2019-06-10 19:03:06,171] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=693711273, lastReceivedTime=659724914, inactivityExceptionPeriod=134887676)
+  INFO root [0x00000eb0] [2019-06-10 19:03:06,264] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00000eb0] [2019-06-10 19:03:06,264] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00000eb0] [2019-06-10 19:03:06,264] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00000eb0] [2019-06-10 19:03:06,311] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00000eb0] [2019-06-10 19:03:06,311] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00000eb0] [2019-06-10 19:03:06,405] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000eb0] [2019-06-10 19:03:06,405] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x000028d0] [2019-06-10 19:03:07,764] - 
+  INFO root [0x000028d0] [2019-06-10 19:03:07,764] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000028d0] [2019-06-10 19:03:07,764] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000028d0] [2019-06-10 19:03:07,764] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x000028d0] [2019-06-10 19:03:07,764] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:49812 )
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:49812, SOMAXCONN=5.
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - server-configs:
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	gameUpdateHertz : 10
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	defaultViewRadius : 80
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	entryScriptFile : kbemain
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	internalTcpAddr : 192.168.56.1:49812
+  INFO root [0x000028d0] [2019-06-10 19:03:07,780] - 	componentID : 8001
+  WARN root [0x000028d0] [2019-06-10 19:03:07,780] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x000028d0] [2019-06-10 19:03:08,358] - Components::findLogger: found logger, addr:192.168.56.1:49809
+  INFO root [0x000028d0] [2019-06-10 19:03:08,358] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x000028d0] [2019-06-10 19:03:08,358] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000028d0] [2019-06-10 19:03:08,373] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 3392 ----
+  INFO root [0x000028d0] [2019-06-10 19:03:08,389] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000028d0] [2019-06-10 19:03:08,420] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000028d0] [2019-06-10 19:03:08,420] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000028d0] [2019-06-10 19:03:08,904] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000028d0] [2019-06-10 19:03:08,904] - Script::install(): KBExtra is successfully!
+  WARN root [0x000028d0] [2019-06-10 19:03:09,076] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000028d0] [2019-06-10 19:03:09,076] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000028d0] [2019-06-10 19:03:09,076] - loaded entity-script:Account(1).
+  WARN root [0x000028d0] [2019-06-10 19:03:09,076] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x000028d0] [2019-06-10 19:03:09,076] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x000028d0] [2019-06-10 19:03:09,092] - loaded entity-script:Room(3).
+  INFO root [0x000028d0] [2019-06-10 19:03:09,092] - TelnetServer server is running on port 50000
+  INFO root [0x000028d0] [2019-06-10 19:03:09,514] - ---- cellapp is running ----
+ DEBUG root [0x000028d0] [2019-06-10 19:03:09,514] - Components::process(): Request for the process of identity...
+  WARN root [0x000028d0] [2019-06-10 19:03:15,809] - Forwarding logs to logger[192.168.56.1:49809/0/0/0]...
+ ERROR root [0x000028d0] [2019-06-10 19:38:45,834] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5507680989, lastReceivedTime=5489437993, inactivityExceptionPeriod=134887500)
+  INFO root [0x000028d0] [2019-06-10 19:38:45,838] - The following logs sent to logger failed:
+  WARN root [0x000028d0] [2019-06-10 19:38:45,839] - ==> [2019-06-10 19:38:45 834] TCPPacketReceiver::processPendingEvents(192.168.56.1:49809): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000028d0] [2019-06-10 19:38:45,839] - ==> [2019-06-10 19:38:45 835] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5507680989, lastReceivedTime=5489437993, inactivityExceptionPeriod=134887500)
+  WARN root [0x000028d0] [2019-06-10 19:38:45,921] - TCPPacketReceiver::processPendingEvents(192.168.56.1:49806): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000028d0] [2019-06-10 19:38:45,925] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5507884872, lastReceivedTime=5489357332, inactivityExceptionPeriod=134887500)
+  INFO root [0x000028d0] [2019-06-10 19:38:45,929] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000028d0] [2019-06-10 19:38:45,929] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000028d0] [2019-06-10 19:38:45,930] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000028d0] [2019-06-10 19:38:45,930] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000028d0] [2019-06-10 19:38:45,930] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000028d0] [2019-06-10 19:38:45,960] - Script::uninstall(): is successfully!
+ DEBUG root [0x000028d0] [2019-06-10 19:38:45,961] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000028d0] [2019-06-10 19:38:46,262] - ThreadPool::destroy(): waiting for thread(2)[0x2848480,0x2848550,], try=1
+  INFO root [0x0000225c] [2019-06-10 19:43:58,679] - 
+  INFO root [0x0000225c] [2019-06-10 19:43:58,684] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000225c] [2019-06-10 19:43:58,684] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000225c] [2019-06-10 19:43:58,684] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x0000225c] [2019-06-10 19:43:58,684] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51716 )
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51716, SOMAXCONN=5.
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - server-configs:
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	gameUpdateHertz : 10
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	defaultViewRadius : 80
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	entryScriptFile : kbemain
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	internalTcpAddr : 192.168.56.1:51716
+  INFO root [0x0000225c] [2019-06-10 19:43:58,699] - 	componentID : 8001
+  WARN root [0x0000225c] [2019-06-10 19:43:58,703] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  WARN root [0x0000225c] [2019-06-10 19:43:59,187] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20672, errorno=10048
+  INFO root [0x0000225c] [2019-06-10 19:43:59,191] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 3056 ----
+  INFO root [0x0000225c] [2019-06-10 19:43:59,192] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000225c] [2019-06-10 19:43:59,193] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000225c] [2019-06-10 19:43:59,193] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000225c] [2019-06-10 19:43:59,413] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000225c] [2019-06-10 19:43:59,413] - Script::install(): KBExtra is successfully!
+  WARN root [0x0000225c] [2019-06-10 19:43:59,849] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000225c] [2019-06-10 19:43:59,849] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000225c] [2019-06-10 19:43:59,850] - loaded entity-script:Account(1).
+  WARN root [0x0000225c] [2019-06-10 19:43:59,852] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000225c] [2019-06-10 19:43:59,852] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000225c] [2019-06-10 19:43:59,853] - loaded entity-script:Room(3).
+  INFO root [0x0000225c] [2019-06-10 19:43:59,853] - TelnetServer server is running on port 50000
+  INFO root [0x0000225c] [2019-06-10 19:44:00,299] - ---- cellapp is running ----
+ DEBUG root [0x0000225c] [2019-06-10 19:44:00,299] - Components::process(): Request for the process of identity...
+  WARN root [0x0000225c] [2019-06-10 19:44:06,463] - EntityApp::checkTickPeriod: tick took 6162% (6.16 seconds)!
+  WARN root [0x0000225c] [2019-06-10 19:44:06,469] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51733): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x0000225c] [2019-06-10 19:44:07,494] - Components::findComponents: find logger(1)...
+  WARN root [0x0000225c] [2019-06-10 19:44:07,834] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20399, errorno=10048
+  WARN root [0x0000225c] [2019-06-10 19:44:07,834] - EntityApp::checkTickPeriod: tick took 433% (0.43 seconds)!
+  INFO root [0x0000225c] [2019-06-10 19:44:08,900] - Components::findComponents: find logger(2)...
+  INFO root [0x0000225c] [2019-06-10 19:44:08,959] - Components::findComponents: found logger, addr:192.168.56.1:51712
+  INFO root [0x0000225c] [2019-06-10 19:44:08,959] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000225c] [2019-06-10 19:44:08,959] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000225c] [2019-06-10 19:44:08,963] - Components::findComponents: find dbmgr(3)...
+  WARN root [0x0000225c] [2019-06-10 19:44:10,067] - Forwarding logs to logger[192.168.56.1:51712/0/0/0]...
+ ERROR root [0x0000225c] [2019-06-10 19:45:36,666] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6432053831, lastReceivedTime=6414045024, inactivityExceptionPeriod=134887373)
+  INFO root [0x0000225c] [2019-06-10 19:45:36,669] - The following logs sent to logger failed:
+  WARN root [0x0000225c] [2019-06-10 19:45:36,669] - ==> [2019-06-10 19:45:36 664] TCPPacketReceiver::processPendingEvents(192.168.56.1:51712): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000225c] [2019-06-10 19:45:36,670] - ==> [2019-06-10 19:45:36 667] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6432053831, lastReceivedTime=6414045024, inactivityExceptionPeriod=134887373)
+  WARN root [0x0000225c] [2019-06-10 19:45:36,757] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51713): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000225c] [2019-06-10 19:45:36,762] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6432270299, lastReceivedTime=6414119272, inactivityExceptionPeriod=134887373)
+  INFO root [0x0000225c] [2019-06-10 19:45:36,770] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000225c] [2019-06-10 19:45:36,773] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000225c] [2019-06-10 19:45:36,773] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000225c] [2019-06-10 19:45:36,774] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000225c] [2019-06-10 19:45:36,774] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000225c] [2019-06-10 19:45:36,805] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000225c] [2019-06-10 19:45:36,805] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000225c] [2019-06-10 19:45:37,106] - ThreadPool::destroy(): waiting for thread(2)[0xbe3e0,0xbe6b8,], try=1
+  INFO root [0x00001c60] [2019-06-10 19:45:38,448] - 
+  INFO root [0x00001c60] [2019-06-10 19:45:38,450] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001c60] [2019-06-10 19:45:38,451] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00001c60] [2019-06-10 19:45:38,452] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x00001c60] [2019-06-10 19:45:38,452] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00001c60] [2019-06-10 19:45:38,467] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51797 )
+  INFO root [0x00001c60] [2019-06-10 19:45:38,467] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51797, SOMAXCONN=5.
+  INFO root [0x00001c60] [2019-06-10 19:45:38,467] - server-configs:
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	gameUpdateHertz : 10
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	defaultViewRadius : 80
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	entryScriptFile : kbemain
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	internalTcpAddr : 192.168.56.1:51797
+  INFO root [0x00001c60] [2019-06-10 19:45:38,468] - 	componentID : 8001
+  WARN root [0x00001c60] [2019-06-10 19:45:38,468] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x00001c60] [2019-06-10 19:45:39,973] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 7188 ----
+  INFO root [0x00001c60] [2019-06-10 19:45:39,974] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00001c60] [2019-06-10 19:45:39,974] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001c60] [2019-06-10 19:45:39,975] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001c60] [2019-06-10 19:45:40,181] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001c60] [2019-06-10 19:45:40,181] - Script::install(): KBExtra is successfully!
+  WARN root [0x00001c60] [2019-06-10 19:45:40,344] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001c60] [2019-06-10 19:45:40,353] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001c60] [2019-06-10 19:45:40,353] - loaded entity-script:Account(1).
+  WARN root [0x00001c60] [2019-06-10 19:45:40,356] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x00001c60] [2019-06-10 19:45:40,356] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x00001c60] [2019-06-10 19:45:40,372] - loaded entity-script:Room(3).
+  INFO root [0x00001c60] [2019-06-10 19:45:40,372] - TelnetServer server is running on port 50000
+  INFO root [0x00001c60] [2019-06-10 19:45:40,861] - ---- cellapp is running ----
+ DEBUG root [0x00001c60] [2019-06-10 19:45:40,861] - Components::process(): Request for the process of identity...
+  WARN root [0x00001c60] [2019-06-10 19:45:46,979] - EntityApp::checkTickPeriod: tick took 6118% (6.12 seconds)!
+  WARN root [0x00001c60] [2019-06-10 19:45:46,988] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51817): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  WARN root [0x00001c60] [2019-06-10 19:45:46,989] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51818): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00001c60] [2019-06-10 19:45:48,058] - Components::findComponents: find logger(1)...
+  INFO root [0x00001c60] [2019-06-10 19:45:48,161] - Components::findComponents: found logger, addr:192.168.56.1:51793
+  INFO root [0x00001c60] [2019-06-10 19:45:48,161] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001c60] [2019-06-10 19:45:48,162] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001c60] [2019-06-10 19:45:48,164] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001c60] [2019-06-10 19:45:48,266] - Components::findComponents: found dbmgr, addr:192.168.56.1:51795
+  INFO root [0x00001c60] [2019-06-10 19:45:48,266] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x00001c60] [2019-06-10 19:45:48,266] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001c60] [2019-06-10 19:45:48,266] - Components::findComponents: found dbmgr, addr:192.168.56.1:51795
+  WARN root [0x00001c60] [2019-06-10 19:45:49,266] - Forwarding logs to logger[192.168.56.1:51793/0/0/0]...
+ ERROR root [0x00001c60] [2019-06-10 19:47:35,161] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6698667786, lastReceivedTime=6638528362, inactivityExceptionPeriod=134887628)
+  INFO root [0x00001c60] [2019-06-10 19:47:35,168] - The following logs sent to logger failed:
+  WARN root [0x00001c60] [2019-06-10 19:47:35,168] - ==> [2019-06-10 19:47:35 160] TCPPacketReceiver::processPendingEvents(192.168.56.1:51793): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001c60] [2019-06-10 19:47:35,169] - ==> [2019-06-10 19:47:35 162] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6698667786, lastReceivedTime=6638528362, inactivityExceptionPeriod=134887628)
+  WARN root [0x00001c60] [2019-06-10 19:47:35,259] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51795): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001c60] [2019-06-10 19:47:35,265] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6698900280, lastReceivedTime=6638579754, inactivityExceptionPeriod=134887628)
+  INFO root [0x00001c60] [2019-06-10 19:47:35,284] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001c60] [2019-06-10 19:47:35,285] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001c60] [2019-06-10 19:47:35,285] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001c60] [2019-06-10 19:47:35,285] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001c60] [2019-06-10 19:47:35,285] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001c60] [2019-06-10 19:47:35,319] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001c60] [2019-06-10 19:47:35,319] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001c60] [2019-06-10 19:47:35,620] - ThreadPool::destroy(): waiting for thread(2)[0x221d158,0x221db18,], try=1
+  INFO root [0x0000014c] [2019-06-10 19:52:19,283] - 
+  INFO root [0x0000014c] [2019-06-10 19:52:19,284] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000014c] [2019-06-10 19:52:19,285] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000014c] [2019-06-10 19:52:19,285] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x0000014c] [2019-06-10 19:52:19,285] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000014c] [2019-06-10 19:52:19,297] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51974 )
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51974, SOMAXCONN=5.
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - server-configs:
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - 	gameUpdateHertz : 10
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - 	defaultViewRadius : 80
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - 	entryScriptFile : kbemain
+  INFO root [0x0000014c] [2019-06-10 19:52:19,298] - 	internalTcpAddr : 192.168.56.1:51974
+  INFO root [0x0000014c] [2019-06-10 19:52:19,299] - 	componentID : 8001
+  WARN root [0x0000014c] [2019-06-10 19:52:19,301] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x0000014c] [2019-06-10 19:52:20,808] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 9680 ----
+  INFO root [0x0000014c] [2019-06-10 19:52:20,809] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000014c] [2019-06-10 19:52:20,809] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000014c] [2019-06-10 19:52:20,810] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000014c] [2019-06-10 19:52:21,009] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000014c] [2019-06-10 19:52:21,010] - Script::install(): KBExtra is successfully!
+  WARN root [0x0000014c] [2019-06-10 19:52:21,132] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000014c] [2019-06-10 19:52:21,132] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000014c] [2019-06-10 19:52:21,132] - loaded entity-script:Account(1).
+  WARN root [0x0000014c] [2019-06-10 19:52:21,135] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000014c] [2019-06-10 19:52:21,135] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000014c] [2019-06-10 19:52:21,136] - loaded entity-script:Room(3).
+  INFO root [0x0000014c] [2019-06-10 19:52:21,136] - TelnetServer server is running on port 50000
+  INFO root [0x0000014c] [2019-06-10 19:52:21,589] - ---- cellapp is running ----
+ DEBUG root [0x0000014c] [2019-06-10 19:52:21,590] - Components::process(): Request for the process of identity...
+  WARN root [0x0000014c] [2019-06-10 19:52:27,693] - EntityApp::checkTickPeriod: tick took 6103% (6.10 seconds)!
+  INFO root [0x0000014c] [2019-06-10 19:52:28,789] - Components::findComponents: find logger(1)...
+  INFO root [0x0000014c] [2019-06-10 19:52:28,855] - Components::findComponents: found logger, addr:192.168.56.1:51970
+  INFO root [0x0000014c] [2019-06-10 19:52:28,855] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000014c] [2019-06-10 19:52:28,855] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000014c] [2019-06-10 19:52:28,856] - Components::findComponents: find dbmgr(2)...
+  WARN root [0x0000014c] [2019-06-10 19:52:29,957] - Forwarding logs to logger[192.168.56.1:51970/0/0/0]...
+ ERROR root [0x0000014c] [2019-06-10 19:53:17,756] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7469507606, lastReceivedTime=7405408193, inactivityExceptionPeriod=134887628)
+  INFO root [0x0000014c] [2019-06-10 19:53:17,762] - The following logs sent to logger failed:
+  WARN root [0x0000014c] [2019-06-10 19:53:17,762] - ==> [2019-06-10 19:53:17 751] TCPPacketReceiver::processPendingEvents(192.168.56.1:51970): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000014c] [2019-06-10 19:53:17,763] - ==> [2019-06-10 19:53:17 757] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7469507606, lastReceivedTime=7405408193, inactivityExceptionPeriod=134887628)
+  WARN root [0x0000014c] [2019-06-10 19:53:17,854] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51966): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000014c] [2019-06-10 19:53:17,857] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7469735694, lastReceivedTime=7405343639, inactivityExceptionPeriod=134887628)
+  INFO root [0x0000014c] [2019-06-10 19:53:17,868] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000014c] [2019-06-10 19:53:17,875] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000014c] [2019-06-10 19:53:17,876] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000014c] [2019-06-10 19:53:17,877] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000014c] [2019-06-10 19:53:17,877] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000014c] [2019-06-10 19:53:17,910] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000014c] [2019-06-10 19:53:17,910] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000014c] [2019-06-10 19:53:18,212] - ThreadPool::destroy(): waiting for thread(2)[0xb35800,0xb35ad8,], try=1
+  INFO root [0x0000112c] [2019-06-10 19:57:44,033] - 
+  INFO root [0x0000112c] [2019-06-10 19:57:44,039] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000112c] [2019-06-10 19:57:44,041] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000112c] [2019-06-10 19:57:44,041] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/HappyPoker_assets/;D:/kbengine/HappyPoker_assets/scripts/;D:/kbengine/HappyPoker_assets/res/
+  INFO root [0x0000112c] [2019-06-10 19:57:44,041] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000112c] [2019-06-10 19:57:44,068] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52054 )
+  INFO root [0x0000112c] [2019-06-10 19:57:44,068] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52054, SOMAXCONN=5.
+  INFO root [0x0000112c] [2019-06-10 19:57:44,068] - server-configs:
+  INFO root [0x0000112c] [2019-06-10 19:57:44,068] - 	gameUpdateHertz : 10
+  INFO root [0x0000112c] [2019-06-10 19:57:44,069] - 	defaultViewRadius : 80
+  INFO root [0x0000112c] [2019-06-10 19:57:44,069] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000112c] [2019-06-10 19:57:44,069] - 	entryScriptFile : kbemain
+  INFO root [0x0000112c] [2019-06-10 19:57:44,069] - 	internalTcpAddr : 192.168.56.1:52054
+  INFO root [0x0000112c] [2019-06-10 19:57:44,069] - 	componentID : 8001
+  WARN root [0x0000112c] [2019-06-10 19:57:44,072] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [0x0000112c] [2019-06-10 19:57:45,581] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 3960. PID: 1176 ----
+  INFO root [0x0000112c] [2019-06-10 19:57:45,581] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000112c] [2019-06-10 19:57:45,581] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000112c] [2019-06-10 19:57:45,582] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000112c] [2019-06-10 19:57:45,808] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000112c] [2019-06-10 19:57:45,808] - Script::install(): KBExtra is successfully!
+  WARN root [0x0000112c] [2019-06-10 19:57:45,929] - EntityDef::checkDefMethod: exposed of method: Account.playerMakeLandlord, check the caller can use "def playerMakeLandlord(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000112c] [2019-06-10 19:57:45,937] - EntityDef::checkDefMethod: exposed of method: Account.setGameReady, check the caller can use "def setGameReady(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000112c] [2019-06-10 19:57:45,944] - loaded entity-script:Account(1).
+  WARN root [0x0000112c] [2019-06-10 19:57:45,946] - EntityDef::checkDefMethod: exposed of method: Room.playPoker, check the caller can use "def playPoker(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0000112c] [2019-06-10 19:57:45,947] - EntityDef::checkDefMethod: exposed of method: Room.unPlayPoker, check the caller can use "def unPlayPoker(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0000112c] [2019-06-10 19:57:45,948] - loaded entity-script:Room(3).
+  INFO root [0x0000112c] [2019-06-10 19:57:45,948] - TelnetServer server is running on port 50000
+  INFO root [0x0000112c] [2019-06-10 19:57:46,393] - ---- cellapp is running ----
+ DEBUG root [0x0000112c] [2019-06-10 19:57:46,394] - Components::process(): Request for the process of identity...
+  WARN root [0x0000112c] [2019-06-10 19:57:52,499] - EntityApp::checkTickPeriod: tick took 6105% (6.11 seconds)!
+  INFO root [0x0000112c] [2019-06-10 19:57:53,551] - Components::findComponents: find logger(1)...
+  INFO root [0x0000112c] [2019-06-10 19:57:53,605] - Components::findComponents: found logger, addr:192.168.56.1:52050
+  INFO root [0x0000112c] [2019-06-10 19:57:53,606] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000112c] [2019-06-10 19:57:53,606] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000112c] [2019-06-10 19:57:53,608] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000112c] [2019-06-10 19:57:53,709] - Components::findComponents: found dbmgr, addr:192.168.56.1:52055
+  INFO root [0x0000112c] [2019-06-10 19:57:53,709] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [0x0000112c] [2019-06-10 19:57:53,709] - Components::addComponent[dbmgr], uid=3960, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000112c] [2019-06-10 19:57:53,710] - Components::findComponents: found dbmgr, addr:192.168.56.1:52055
+  WARN root [0x0000112c] [2019-06-10 19:57:54,711] - Forwarding logs to logger[192.168.56.1:52050/0/0/0]...
+ ERROR root [0x0000112c] [2019-06-10 20:00:35,243] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8453851924, lastReceivedTime=8406087206, inactivityExceptionPeriod=134887500)
+  INFO root [0x0000112c] [2019-06-10 20:00:35,246] - The following logs sent to logger failed:
+  WARN root [0x0000112c] [2019-06-10 20:00:35,247] - ==> [2019-06-10 20:00:35 237] TCPPacketReceiver::processPendingEvents(192.168.56.1:52050): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000112c] [2019-06-10 20:00:35,247] - ==> [2019-06-10 20:00:35 243] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8453851924, lastReceivedTime=8406087206, inactivityExceptionPeriod=134887500)
+  WARN root [0x0000112c] [2019-06-10 20:00:35,335] - TCPPacketReceiver::processPendingEvents(192.168.56.1:52055): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000112c] [2019-06-10 20:00:35,342] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=8454074765, lastReceivedTime=8406223029, inactivityExceptionPeriod=134887500)
+  INFO root [0x0000112c] [2019-06-10 20:00:35,350] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000112c] [2019-06-10 20:00:35,351] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000112c] [2019-06-10 20:00:35,356] - Spaces::destroySpace: 1.
+  INFO root [0x0000112c] [2019-06-10 20:00:35,356] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000112c] [2019-06-10 20:00:35,444] - Account::~Account(): 2
+ DEBUG root [0x0000112c] [2019-06-10 20:00:35,445] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x0000112c] [2019-06-10 20:00:35,445] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x0000112c] [2019-06-10 20:00:35,456] - Room::~Room(): 3
+  INFO root [0x0000112c] [2019-06-10 20:00:35,468] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000112c] [2019-06-10 20:00:35,469] - ThreadPool::destroy(): starting size 2.
